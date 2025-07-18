@@ -1,0 +1,38 @@
+<!-- custom code for animated transitions-->
+<style>#primaryDesign.offcanvas.offcanvas-end.show{background-color:#1e1e1e!important;color:white!important}.search-menu-item button{color:white!important}.categories-main{background-image:url(https://p1media.prosperna.ph/media/672088ab761ca79d31f13167/1740984995423-image%208.webp)!important;background-blend-mode:soft-light!important;background-size:cover!important;background-position:center center!important}@media screen and (min-width:1200px){.search-menu-item button{width:20px!important}.store-location-item svg{color:white!important}.store-location-item{order:1}.account-item{order:2}.account-item a.dropdown-toggle.nav-link{padding-right:0!important}.cart-item{order:3}}#primaryDesign .nav-item-design.active{border-bottom:2px solid #ca4704!important}#primaryDesign .nav-item-design{border-bottom:2px solid transparent!important}#primaryDesign .nav-item-design:hover{border-bottom:2px solid #ca4704!important}</style>
+
+<!-- custom code for animated transitions-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<script>new WOW({offset:100,mobile:!0,live:!0,callback:function(){},scrollContainer:null}).init();</script>
+
+<!-- custom code for active link-->
+<script>function updateActiveNavLink(){const e=window.location.pathname;document.querySelectorAll(".nav-item-design").forEach(t=>{t.getAttribute("href")===e?t.classList.add("active"):t.classList.remove("active")})}const observer=new MutationObserver(()=>{updateActiveNavLink()});function startObserving(){observer.observe(document.body,{childList:!0,subtree:!0}),updateActiveNavLink()}document.body?startObserving():document.addEventListener("DOMContentLoaded",startObserving);</script>
+
+
+
+<div>
+  <style>
+    .grow {
+      transition: all .2s ease-in-out;
+      z-index: 1;
+    }
+    .grow:hover {
+      transform: scale(1.2);
+      z-index: 2;
+    }
+    .underline-effect {
+      text-decoration: none;
+      border-bottom: 2px solid transparent;
+    }
+    .underline-effect:hover {
+      border-bottom: 2px solid #3C6EDB;
+    }
+    .footer-link{
+      cursor: pointer;
+    }
+    a.footer-link.icon{
+      min-width: auto !important;
+    }
+  </style>
+</div>

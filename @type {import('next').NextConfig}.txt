@@ -1,0 +1,203 @@
+/** @type {import('next').NextConfig} */
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const path = require('path');
+
+const nextConfig = {
+  reactStrictMode: true,
+  compress: true,
+  basePath: '',
+  sassOptions: {
+    includePaths: [path.join(__dirname, 'assets/styles')],
+  },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'p1-mediaserver.s3.ap-southeast-1.amazonaws.com',
+        pathname: '**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'p1media.prosperna.ph',
+        pathname: '**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'i.ytimg.com',
+        pathname: '**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'i.vimeocdn.com',
+        pathname: '**',
+      },
+    ],
+  },
+  publicRuntimeConfig: {
+    NEXT_PUBLIC_ENV: process.env.NEXT_PUBLIC_ENV,
+    NEXT_PUBLIC_XENDIT_TOKEN_KEY_TEST:
+      process.env.NEXT_PUBLIC_XENDIT_TOKEN_KEY_TEST,
+    NEXT_PUBLIC_XENDIT_TOKEN_KEY_PROD:
+      process.env.NEXT_PUBLIC_XENDIT_TOKEN_KEY_LIVE,
+  },
+  async headers() {
+    const isLocalhost = process.env.NEXT_PUBLIC_API_URL?.includes('localhost');
+
+    if (isLocalhost) {
+      return [
+        {
+          source: '/(.*)',
+          headers: [
+            {
+              key: 'Cache-Control',
+              value: 'no-store, no-cache, must-revalidate',
+            },
+          ],
+        },
+      ];
+    }
+
+    return [
+      {
+        source: '/(.*)',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, stale-while-revalidate=86400',
+          },
+          {
+            key: 'X-DNS-Prefetch-Control',
+            value: 'on',
+          },
+          {
+            key: 'Surrogate-Control',
+            value: 'max-age=31536000',
+          },
+        ],
+      },
+      {
+        source: '/(.*).webp$',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, stale-while-revalidate=86400',
+          },
+          {
+            key: 'Content-Type',
+            value: 'image/webp',
+          },
+        ],
+      },
+      {
+        source: '/(.*).png$',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, stale-while-revalidate=86400',
+          },
+          {
+            key: 'Content-Type',
+            value: 'image/png',
+          },
+        ],
+      },
+      {
+        source: '/(.*).jpg$',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, stale-while-revalidate=86400',
+          },
+          {
+            key: 'Content-Type',
+            value: 'image/jpeg',
+          },
+        ],
+      },
+      {
+        source: '/(.*).jpeg$',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=31536000, stale-while-revalidate=86400',
+          },
+          {
+            key: 'Content-Type',
+            value: 'image/jpeg',
+          },
+        ],
+      },
+      {
+        source: '/account',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'private, no-cache, no-store, must-revalidate',
+          },
+        ],
+      },
+      {
+        source: '/(.*)api(.*)',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'no-store, max-age=0, must-revalidate',
+          },
+        ],
+      },
+    ];
+  },
+  webpack: (config, { dev }) => {
+    if (config.cache && !dev) {
+      config.cache = {
+        type: 'filesystem',
+        version: '1.0.0',
+        buildDependencies: {
+          config: [__filename],
+        },
+      };
+    }
+
+    config.optimization.splitChunks = {
+      chunks: 'all',
+      maxInitialRequests: 1,
+      maxAsyncRequests: 1,
+      minSize: 800000,
+      maxSize: 1500000,
+      cacheGroups: {
+        framework: {
+          name: 'framework',
+          test: /[\\/]node_modules[\\/](react|react-dom|next|@next|@emotion|@mui|@babel|scheduler|styled-jsx|use-sync-external-store|prop-types|framer-motion)[\\/]/,
+          priority: 50,
+          enforce: true,
+          reuseExistingChunk: true,
+          maxSize: 1500000,
+        },
+        default: {
+          name: 'commons',
+          minChunks: 9,
+          priority: 40,
+          reuseExistingChunk: true,
+          minSize: 800000,
+        },
+        vendors: {
+          name: 'vendors',
+          test: /[\\/]node_modules[\\/]/,
+          priority: 30,
+          enforce: true,
+          reuseExistingChunk: true,
+        },
+      },
+    };
+
+    config.optimization.moduleIds = 'deterministic';
+    config.optimization.chunkIds = 'deterministic';
+    config.optimization.runtimeChunk = {
+      name: 'runtime',
+    };
+
+    return config;
+  },
+};
+
+module.exports = nextConfig;
