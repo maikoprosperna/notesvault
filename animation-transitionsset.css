@@ -1,0 +1,93 @@
+
+.fade-in-text-left {
+    animation: fadeIn 5s, slide-left1 10s;
+  }
+  .fade-in-text-right {
+    animation: fadeIn 5s, slide-right1 10s;
+  }
+  /* slideup effect  */
+  .slide-up-element {
+    animation: fadeIn 5s, slide-up 2s ease-out;
+  }
+  /* fadein effect  */
+  .fade-in-element {
+    animation: fadeIn 3s;
+  }
+  /* Grow effect */
+  .grow{
+    transition:all .2s ease-in-out;
+    z-index:1000;
+  }
+  .grow:hover{
+    transform:scale(1.2);
+    z-index:1002;
+    box-shadow:rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  /*Underline effect  */
+  .underline-effect-2{
+    text-decoration: none;
+  }
+  .underline-effect-2:hover{
+    border-bottom: 1px solid #ffb81c;
+  }
+  .brighten:hover {
+    filter: brightness(115%);
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes slide-left1 {
+    from {
+      transform: translateX(50%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  @keyframes slide-right1 {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(50%);
+    }
+  }
+  @keyframes slide-up {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  .custom-product .btn.w-100{
+    background-color: transparent !important;
+    border: 1px solid lightgray !important;
+    color: black !important;
+    border-radius: 0px;
+  }
+  .custom-product .btn.w-100:hover{
+    background-color: transparent !important;
+  }
+  .shimmer {
+    color: grey;
+    -webkit-mask:linear-gradient(-60deg,#000 30%,#0005,#000 70%) right/300% 100%;
+    background-repeat: no-repeat;
+    animation: shimmer 2.5s infinite;
+  }
+  .shimmer-hover:hover {
+    color: grey;
+    -webkit-mask:linear-gradient(-60deg,#000 30%,#0005,#000 70%) right/300% 100%;
+    background-repeat: no-repeat;
+    animation: shimmer 2.5s infinite;
+  }
+  @keyframes shimmer {
+    100% {
+      -webkit-mask-position:left}
+  }
+
