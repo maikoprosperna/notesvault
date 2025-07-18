@@ -1,0 +1,165 @@
+<!-- custom code for animation transitions -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>new WOW({offset:100,mobile:!0,live:!0,callback:function(o){},scrollContainer:null}).init()</script>
+
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin="anonymous"><link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin="anonymous"><link rel="preload" as="image" href="https://p1media.prosperna.ph/media/67a4499788e7388cb2028f90/1739147509210-20220429-151335.webp" type="image/webp"><link rel="preload" as="script" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"><link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet"><script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script><script>
+    document.addEventListener("DOMContentLoaded", function () {
+        let e = document.querySelector('meta[name="viewport"]');
+        e && e.remove();
+        let t = document.createElement("meta");
+        t.name = "viewport";
+        t.content = "width=device-width, initial-scale=1, maximum-scale=5";
+        document.head.appendChild(t);
+    });
+
+    function initializeSwipers() {
+        document.querySelectorAll(".loading-text, .loading-text-3").forEach((e) => {
+            e.style.display = "none";
+        });
+
+        const initSwiper = (selector, config) => {
+            document.querySelectorAll(selector).forEach((el) => {
+                if (!el.classList.contains("swiper-initialized")) {
+                    el.style.display = "block";
+                    new Swiper(el, config);
+                }
+            });
+        };
+
+        initSwiper(".myCustomSwiper", {
+            loop: true,
+            loopedSlides: 8,
+            autoplay: { delay: 0, disableOnInteraction: true },
+            speed: 2000,
+            slidesPerView: 5,
+            spaceBetween: 20,
+            centeredSlides: false,
+            allowTouchMove: true,
+            breakpoints: {
+                992: { slidesPerView: 5, spaceBetween: 15 },
+                768: { slidesPerView: 3, spaceBetween: 10 },
+                480: { slidesPerView: 1, spaceBetween: 0, centeredSlides: false },
+                0: { slidesPerView: 1, spaceBetween: 0, centeredSlides: false },
+            },
+        });
+
+        initSwiper(".myCustomSwiperTwo", {
+            slidesPerView: 4,
+            spaceBetween: 5,
+            loop: true,
+            autoplay: { delay: 3000, disableOnInteraction: false },
+            navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev" },
+            breakpoints: {
+                992: { slidesPerView: 4, spaceBetween: 15 },
+                768: { slidesPerView: 2, spaceBetween: 10 },
+                480: { slidesPerView: 1, spaceBetween: 0, centeredSlides: false },
+                0: { slidesPerView: 1, spaceBetween: 0, centeredSlides: false },
+            },
+        });
+
+        initSwiper(".myCustomSwiperThree", {
+            slidesPerView: 6.5,
+            spaceBetween: 20,
+            loop: true,
+            centeredSlides: true,
+            autoplay: { delay: 2500, disableOnInteraction: true },
+            breakpoints: {
+                1400: { slidesPerView: 6.1, spaceBetween: 30 },
+                1200: { slidesPerView: 5.1, spaceBetween: 30 },
+                992: { slidesPerView: 3, spaceBetween: 15 },
+                480: { slidesPerView: 3, spaceBetween: 5 },
+                0: { slidesPerView: 1, spaceBetween: 5 },
+            },
+        });
+    }
+
+    // Run once on load
+    window.addEventListener("load", function () {
+        setTimeout(initializeSwipers, 1000);
+    });
+
+    // Fallback: Re-run every 2 seconds to catch navigation changes
+    setInterval(initializeSwipers, 2000);
+</script>
+<script>
+function initTabbedSection() {
+    const t = document.querySelector(".customTabbedSection");
+    if (!t) return;
+
+    const e = t.querySelector(".right-panel"),
+        n = t.querySelectorAll(".nav-link"),
+        s = t.querySelectorAll(".feature-section"),
+        o = new bootstrap.ScrollSpy(e, { target: "#navbar-features", offset: 200, method: "offset" });
+
+    const targetLink = t.querySelector(".nav-link[href='#pagebuilder']");
+    const innerContent = targetLink?.querySelector("div"); // 👈 this div wraps h3 + p
+/*if (targetLink) {
+    targetLink.classList.add("active");
+    targetLink.style.marginTop = "100px"; // add spacing
+    console.log("Added 100px margin to", targetLink);
+}*/
+
+    const scrollToSection = (selector) => {
+        const section = t.querySelector(selector);
+        if (section) {
+            e.scrollTo({ top: section.offsetTop - 100, behavior: "smooth" });
+        }
+    };
+
+    n.forEach(link => {
+        link.addEventListener("click", (event) => {
+            event.preventDefault();
+            const href = link.getAttribute("href");
+            scrollToSection(href);
+        });
+    });
+
+    let i = false;
+
+    const r = () => {
+        const scrollTop = e.scrollTop;
+
+        // ✅ Add padding to internal content instead of margin to the link
+        if (innerContent) {
+            if (scrollTop > 50) {
+                innerContent.style.paddingTop = "100px";
+            } else {
+                innerContent.style.paddingTop = "0";
+            }
+        }
+
+        if (!i) {
+            window.requestAnimationFrame(() => {
+                const t = e.scrollTop;
+                s.forEach((section, index) => {
+                    const rect = section.getBoundingClientRect();
+                    const top = rect.top + e.scrollTop;
+                    if (t >= top - 200 && t < top - 200 + section.offsetHeight) {
+                        n.forEach(link => link.classList.remove("active"));
+                        n[index].classList.add("active");
+                    }
+                });
+                if (e.scrollHeight - e.scrollTop === e.clientHeight) {
+                    n.forEach(link => link.classList.remove("active"));
+                    n[n.length - 1].classList.add("active");
+                }
+                i = false;
+            });
+            i = true;
+        }
+    };
+
+    e.addEventListener("scroll", r, { passive: true });
+
+    o.refresh();
+}
+
+window.addEventListener("load", () => {
+    setTimeout(initTabbedSection, 1000);
+});
+
+setInterval(initTabbedSection, 2000);
+
+</script>

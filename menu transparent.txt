@@ -1,0 +1,14 @@
+<div>
+  <style>
+    .bg-linear-gradient{
+      background: linear-gradient(180deg, #000000 0%, transparent 100%);
+    }
+    .consumer-box #publicHeaderMain{
+      position: fixed !important;
+    }
+    .consumer-box #primaryDesign .header-main{
+      background-color: transparent !important;
+      box-shadow: none !important;
+    }
+  </style>
+</div>

@@ -1,0 +1,164 @@
+<div id="heroCarousel" data-gjs-type="heroCarousel" class="carousel slide position-relative" data-gjs-removable="false" data-gjs-copyable="false">
+
+  <!-- Static Text Centered Over Slides -->
+  <div class="carousel-text text-white p-2 text-center position-absolute top-50 start-50 translate-middle" data-gjs-type="editableText" data-gjs-removable="false" data-gjs-copyable="false" data-gjs-draggable="false">
+    <h1 class="text-white" data-gjs-removable="false" data-gjs-copyable="false" data-gjs-draggable="false">100% Hand Crafted</h1>
+    <p data-gjs-removable="false" data-gjs-copyable="false" data-gjs-draggable="false">We’re proud to be one of the few remaining 100% hand crafted designers. Your ring is meticulously designed and made by hand with heirloom quality. </p>
+  </div>
+
+  <!-- Indicators -->
+  <div class="carousel-indicators" data-gjs-type="heroCarouselIndicators" data-gjs-removable="false" data-gjs-copyable="false" data-gjs-draggable="false">
+    <button data-gjs-type="indicators" class="active" aria-label="Slide 1" data-bs-slide-to="0" data-bs-target="#heroCarousel" type="button" data-gjs-removable="false" data-gjs-copyable="false" data-gjs-draggable="false"></button>
+    <button data-gjs-type="indicators" aria-current="true" aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#heroCarousel" type="button" data-gjs-removable="false" data-gjs-copyable="false" data-gjs-draggable="false"></button>
+    <button data-gjs-type="indicators" aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#heroCarousel" type="button" data-gjs-removable="false" data-gjs-copyable="false" data-gjs-draggable="false"></button>
+  </div>
+
+  <!-- Slides -->
+  <div class="carousel-inner" data-gjs-type="carouselInner" data-gjs-removable="false" data-gjs-copyable="false" data-gjs-draggable="false">
+    <!-- Slide 1 -->
+    <div class="carousel-item active" data-gjs-type="slide-1" data-gjs-removable="false" data-gjs-copyable="false" data-gjs-draggable="false">
+      <div class="slide slide1 container-slide" data-gjs-type="container-slide" data-gjs-removable="false" data-gjs-copyable="false" data-gjs-draggable="false"></div>
+    </div>
+    <!-- Slide 2 -->
+    <div class="carousel-item" data-gjs-type="slide-2" data-gjs-removable="false" data-gjs-copyable="false" data-gjs-draggable="false">
+      <div class="slide slide2 container-slide" data-gjs-type="container-slide" data-gjs-removable="false" data-gjs-copyable="false" data-gjs-draggable="false"></div>
+    </div>
+    <!-- Slide 3 -->
+    <div class="carousel-item" data-gjs-type="slide-3" data-gjs-removable="false" data-gjs-copyable="false" data-gjs-draggable="false">
+      <div class="slide slide3 container-slide" data-gjs-type="container-slide" data-gjs-removable="false" data-gjs-copyable="false" data-gjs-draggable="false"></div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <button class="carousel-control-prev" data-gjs-type="Previous" data-bs-slide="prev" data-bs-target="#heroCarousel" type="button" data-gjs-removable="false" data-gjs-copyable="false" data-gjs-draggable="false">
+    <span class="carousel-control-prev-icon" data-gjs-type="previousIcon" aria-hidden="true" data-gjs-removable="false" data-gjs-copyable="false" data-gjs-draggable="false"></span>
+    <span class="visually-hidden" data-gjs-type="previousText" data-gjs-removable="false" data-gjs-copyable="false" data-gjs-draggable="false">Previous</span>
+  </button>
+  <button class="carousel-control-next" data-gjs-type="Next" data-bs-slide="next" data-bs-target="#heroCarousel" type="button" data-gjs-removable="false" data-gjs-copyable="false" data-gjs-draggable="false">
+    <span class="carousel-control-next-icon" data-gjs-type="nextIcon" aria-hidden="true" data-gjs-removable="false" data-gjs-copyable="false" data-gjs-draggable="false"></span>
+    <span class="visually-hidden" data-gjs-type="nextText" data-gjs-removable="false" data-gjs-copyable="false" data-gjs-draggable="false">Next</span>
+  </button>
+</div>
+
+<style>
+/* Position relative for carousel to contain absolute text */
+#heroCarousel {
+  position: relative;
+}
+
+/* Static text centered in the middle of the carousel */
+#heroCarousel .carousel-text {
+  max-width: 700px;
+  z-index: 3; /* very high so it is on top of everything */
+  /* pointer-events: none;  <-- removed this so text is clickable/editable */
+  cursor: text; /* show text cursor on hover */
+  /* optional: add some padding or transparent bg to help GrapesJS selection */
+  padding: 0 10px;
+}
+
+/* Make sure h1 and p inherit cursor */
+#heroCarousel .carousel-text h1,
+#heroCarousel .carousel-text p {
+  cursor: text;
+}
+
+#heroCarousel .carousel-text h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+#heroCarousel .carousel-text p {
+  font-size: 1.25rem;
+  margin: 0 auto;
+}
+
+/* Base slide container styles */
+#heroCarousel .carousel-item .container-slide {
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/* Overlay background for dark effect */
+#heroCarousel .container-slide::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Backgrounds for each slide */
+#heroCarousel .slide1 {
+  background-image: url('https://p1media.prosperna.ph/media/682c27b4bf13aac97635eb2a/1747791858394-aba12a4f58e4a07f9a693f46e03ddf18756dc77a.webp');
+}
+#heroCarousel .slide2 {
+  background-image: url('https://p1media.prosperna.ph/media/682c27b4bf13aac97635eb2a/1747792871942-Engagement-Photo-20-1.webp');
+}
+#heroCarousel .slide3 {
+  background-image: url('https://p1media.prosperna.ph/media/682c27b4bf13aac97635eb2a/1747794288383-IMG_4680.webp');
+}
+
+/* Button styling */
+#heroCarousel .carousel-indicators button {
+  min-width: 88px;
+  min-height: 6px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  transition: background 0.3s ease; /* smooth transition for background */
+}
+
+/* Show icons only on button hover */
+.carousel-control-prev:hover .carousel-control-prev-icon,
+.carousel-control-next:hover .carousel-control-next-icon {
+  opacity: 1;
+}
+/* Previous button hover: black to transparent left to right */
+.carousel-control-prev:hover {
+  background: linear-gradient(to right, rgba(0,0,0,0.5), transparent);
+}
+
+/* Next button hover: transparent to black left to right */
+.carousel-control-next:hover {
+  background: linear-gradient(to left, rgba(0,0,0,0.5), transparent);
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  #heroCarousel .carousel-item .container-slide {
+    min-height: 60vh;
+  }
+  #heroCarousel .carousel-text h1 {
+    font-size: 2.25rem;
+  }
+  #heroCarousel .carousel-text p {
+    font-size: 1.1rem;
+  }
+  #heroCarousel .carousel-indicators button {
+    min-width: auto;
+    min-height: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  #heroCarousel .carousel-item .container-slide {
+    min-height: 50vh;
+  }
+  #heroCarousel .carousel-text h1 {
+    font-size: 1.5rem;
+  }
+  #heroCarousel .carousel-text p {
+    font-size: 1rem;
+  }
+}
+</style>

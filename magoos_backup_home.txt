@@ -1,0 +1,1038 @@
+<body>
+  <section id="section" class="gjs-section position-relative">
+    <div id="container">
+      <h1 id="itakls" class="futura-std-font mt-5 mt-lg-0 pt-3 pt-lg-0">The Original Square Pizza
+      </h1>
+      <div class="layout-placeholder">
+        <div class="layout-placeholder-container">
+          <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" class="d-block mx-auto">
+            <circle cx="25" cy="25" r="25" fill="#3871E0">
+            </circle>
+            <path d="M23.875 35.5V26.125H14.5V23.875H23.875V14.5H26.125V23.875H35.5V26.125H26.125V35.5H23.875Z" fill="white">
+            </path>
+          </svg>
+          <p class="fw-bold text-black-50 text-center">Drag a block here
+          </p>
+        </div>
+      </div>
+      <a id="ihm0uz" href="/products" class="btn btn-primary futura-std-font">Order Online</a>
+    </div>
+  </section>
+  <section id="section-6" class="gjs-section position-relative">
+    <div id="container-5" class="container">
+      <h1 id="im0r95">Featured Offers
+      </h1>
+      <div class="layout-placeholder">
+        <div class="layout-placeholder-container">
+          <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" class="d-block mx-auto">
+            <circle cx="25" cy="25" r="25" fill="#3871E0">
+            </circle>
+            <path d="M23.875 35.5V26.125H14.5V23.875H23.875V14.5H26.125V23.875H35.5V26.125H26.125V35.5H23.875Z" fill="white">
+            </path>
+          </svg>
+          <p class="fw-bold text-black-50 text-center">Drag a block here
+          </p>
+        </div>
+      </div>
+      <p id="iifx7a">Over the years, Magoo’s pizza remains an icon with its perfect ratio of delicious crust, cheese, and toppings.
+      </p>
+      <div id="i95cyi" class="gjs-row row">
+        <div id="im6o38" class="gjs-cell col position-relative">
+          <img id="ig74qw" src="https://p1-mediaserver.s3.ap-southeast-1.amazonaws.com/page-builder/store/images/1699227099797-FAMOUS%20COMBINATION.jpg" class="shimmer"/>
+          <div id="i3hd0g" class="gjs-row row">
+            <div id="iy259r" class="gjs-cell col position-relative">
+              <h1 id="izbzl5">Famous Combination
+              </h1>
+              <div class="layout-placeholder">
+                <div class="layout-placeholder-container">
+                  <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" class="d-block mx-auto">
+                    <circle cx="25" cy="25" r="25" fill="#3871E0">
+                    </circle>
+                    <path d="M23.875 35.5V26.125H14.5V23.875H23.875V14.5H26.125V23.875H35.5V26.125H26.125V35.5H23.875Z" fill="white">
+                    </path>
+                  </svg>
+                  <p class="fw-bold text-black-50 text-center">Drag a block here
+                  </p>
+                </div>
+              </div>
+              <p id="irncgq">Php 284.00
+              </p>
+              <p id="iqky1h">
+                <b>Magoo’s Famous Combination
+                </b> – A consistent best-seller after all these years. Looks good, and tastes even better.
+              </p>
+              <p id="i3u00w">
+                <i>pepperoni, pork sausage, mushrooms, green pepper, black olives
+                </i>
+              </p>
+              <a id="iy3e61" href="/products/famous-combination" class="btn btn-primary">View Details</a>
+            </div>
+          </div>
+          <div class="layout-placeholder">
+            <div class="layout-placeholder-container">
+              <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" class="d-block mx-auto">
+                <circle cx="25" cy="25" r="25" fill="#3871E0">
+                </circle>
+                <path d="M23.875 35.5V26.125H14.5V23.875H23.875V14.5H26.125V23.875H35.5V26.125H26.125V35.5H23.875Z" fill="white">
+                </path>
+              </svg>
+              <p class="fw-bold text-black-50 text-center">Drag a block here
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="is9gbm" class="gjs-row row">
+        <div id="ii8bjh" class="gjs-cell col position-relative">
+          <img src="https://p1-mediaserver.s3.ap-southeast-1.amazonaws.com/page-builder/store/images/1699227544513-VEGETARIAN.jpg" id="i5yl7q" class="shimmer"/>
+          <div id="i60vrl" class="gjs-row row">
+            <div id="iofi89" class="gjs-cell col position-relative">
+              <h1 id="itfdkt">Vegetarian Delight
+              </h1>
+              <div id="i06qs" class="layout-placeholder">
+                <div class="layout-placeholder-container">
+                  <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" class="d-block mx-auto">
+                    <circle cx="25" cy="25" r="25" fill="#3871E0">
+                    </circle>
+                    <path d="M23.875 35.5V26.125H14.5V23.875H23.875V14.5H26.125V23.875H35.5V26.125H26.125V35.5H23.875Z" fill="white">
+                    </path>
+                  </svg>
+                  <p class="fw-bold text-black-50 text-center">Drag a block here
+                  </p>
+                </div>
+              </div>
+              <p id="iqzwq2">Php 264.00
+              </p>
+              <p id="ic0aio">
+                <b>Vegetarian Delight 
+                </b>– For those who prefer to go meatless, we have this for you!
+              </p>
+              <p id="i6mjdm">
+                <i id="izv0mk">fresh tomatoes, mushrooms, green pepper, black olives
+                </i>
+              </p>
+              <a id="iol6ox" href="/products/vegetarian-delight" class="btn btn-primary">View Details</a>
+            </div>
+          </div>
+          <div class="layout-placeholder">
+            <div class="layout-placeholder-container">
+              <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" class="d-block mx-auto">
+                <circle cx="25" cy="25" r="25" fill="#3871E0">
+                </circle>
+                <path d="M23.875 35.5V26.125H14.5V23.875H23.875V14.5H26.125V23.875H35.5V26.125H26.125V35.5H23.875Z" fill="white">
+                </path>
+              </svg>
+              <p class="fw-bold text-black-50 text-center">Drag a block here
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section id="section-7" class="gjs-section position-relative">
+        <div id="container-6" class="container">
+          <a id="i0qqpd" href="/products" class="btn btn-primary">See All Listings</a>
+          <div class="layout-placeholder">
+            <div class="layout-placeholder-container">
+              <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" class="d-block mx-auto">
+                <circle cx="25" cy="25" r="25" fill="#3871E0">
+                </circle>
+                <path d="M23.875 35.5V26.125H14.5V23.875H23.875V14.5H26.125V23.875H35.5V26.125H26.125V35.5H23.875Z" fill="white">
+                </path>
+              </svg>
+              <p class="fw-bold text-black-50 text-center">Drag a block here
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </section>
+  <section id="section-2" class="gjs-section position-relative">
+    <div id="container-2" class="container">
+      <div id="il50d" class="gjs-row row">
+        <div id="i0bjn" class="gjs-cell col-sm position-relative">
+          <img id="idhfa" src="https://p1-mediaserver.s3.ap-southeast-1.amazonaws.com/page-builder/store/images/1699227721280-222.jpg"/>
+          <div class="layout-placeholder">
+            <div class="layout-placeholder-container">
+              <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" class="d-block mx-auto">
+                <circle cx="25" cy="25" r="25" fill="#3871E0">
+                </circle>
+                <path d="M23.875 35.5V26.125H14.5V23.875H23.875V14.5H26.125V23.875H35.5V26.125H26.125V35.5H23.875Z" fill="white">
+                </path>
+              </svg>
+              <p class="fw-bold text-black-50 text-center">Drag a block here
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="i576u" class="gjs-cell col-sm position-relative">
+          <div class="layout-placeholder">
+            <div class="layout-placeholder-container">
+              <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" class="d-block mx-auto">
+                <circle cx="25" cy="25" r="25" fill="#3871E0">
+                </circle>
+                <path d="M23.875 35.5V26.125H14.5V23.875H23.875V14.5H26.125V23.875H35.5V26.125H26.125V35.5H23.875Z" fill="white">
+                </path>
+              </svg>
+              <p class="fw-bold text-black-50 text-center">Drag a block here
+              </p>
+            </div>
+          </div>
+          <h1 id="ir5bj7">About Us
+          </h1>
+          <p>
+          </p>
+          <p id="id8me">
+          </p>
+          <p dir="ltr" id="ire7d">
+            <span data-sheets-userformat="{" data-sheets-value="{" for=""></span>
+          </p>
+          <p>
+          </p>
+          <p id="ifol15">Welcome to Magoo's Pizza
+          </p>
+          <p id="iebhtj">Magoo's Pizza pioneered pizza delivery in the Philippines way back in 1977 with the opening of its very first store in Makati. During that time, food "to-go" was unheard of, and having food actually delivered to your home with one phone call was a novelty. Other pizza chains followed many years later.
+            <br/>
+            <br/>Originally a franchise from Honolulu, and later on as an independent Filipino chain, Magoo's branched out to different areas of the metropolis making their pizzas available to more people. In 1996, 
+            <a href="/" id="ih4r62">magoos.com</a> even dabbled in the digital space and offered online ordering via (then) high-tech dial-up-to-fax transmissions.
+            <br/>
+            <br/>In 1998, Magoo's introduced its "Tear-Serve and Keep" box-responsible packaging to address growing environmental concerns. The top of the box tears up into little paper plates so that office parties were neater, and the bottom box is folded up into a slim box that stores conveniently in a home refrigerator. This ingenious box is still being used today.
+            <br/>
+            <br/>Of course, the center of all this was the famous square pizzas which were divided up into more slices, easier to share and easier to hold. If you were having a party, you could even request the store to cut it up into smaller appetizer-sized pieces.
+            <br/>
+            <br/>Do look through our menu and take a trip down memory lane!
+          </p>
+        </div>
+      </div>
+      <div id="iocd4" class="layout-placeholder">
+        <div class="layout-placeholder-container">
+          <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" id="iftb3" class="d-block mx-auto">
+            <circle cx="25" cy="25" r="25" fill="#3871E0">
+            </circle>
+            <path d="M23.875 35.5V26.125H14.5V23.875H23.875V14.5H26.125V23.875H35.5V26.125H26.125V35.5H23.875Z" fill="white">
+            </path>
+          </svg>
+          <p class="fw-bold text-black-50 text-center">Drag a block here
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="ihm964" class="gjs-section position-relative">
+    <h1 id="ifv8jg">
+    </h1>
+    <h1 id="io6ext">Contact Us
+    </h1>
+    <div id="iu67yw" class="container">
+      <div id="i9ljm6" class="gjs-row row contact-us">
+        <div id="iiw1la" class="gjs-cell col-sm position-relative">
+          <div id="izaopa" class="gjs-row row">
+            <div id="iae4i6" class="gjs-cell col-sm position-relative">
+              <h1 id="i7sg08">Phone
+              </h1>
+              <p id="i9iq26">
+                <a href="tel:09989834958" id="i6h6eh"></a>
+                <a href="tel:8 843 6560" id="ivk9ni"><fontsninja-text id="fontsninja-text-184" class="fontsninja-family-37425">0917 630 3462
+                  </fontsninja-text><br/><fontsninja-text id="icp8ct" class="fontsninja-family-37425">8 843 6560
+                  </fontsninja-text></a>
+                <br/>
+              </p>
+              <a id="is7dxl" href="tel:+63 999 997 7688"></a>
+              <a href="tel:+63 917 631 2184" id="iw2vnj"></a>
+              <a href="tel:02 7745 5089" id="i45eej"></a>
+              <h1 id="i03jxa">Email
+              </h1>
+              <p id="ipptxz">
+                <a href="mailto:arcexpress@archospitals.com.ph" id="iojt0v"></a>
+                <a href="mailto:magoospizza.onlineorders@gmail.com" id="ieonfp">magoospizza.onlineorders@gmail.com</a>
+              </p>
+              <div class="layout-placeholder">
+                <div class="layout-placeholder-container">
+                  <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" class="d-block mx-auto">
+                    <circle cx="25" cy="25" r="25" fill="#3871E0">
+                    </circle>
+                    <path d="M23.875 35.5V26.125H14.5V23.875H23.875V14.5H26.125V23.875H35.5V26.125H26.125V35.5H23.875Z" fill="white">
+                    </path>
+                  </svg>
+                  <p class="fw-bold text-black-50 text-center">Drag a block here
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div id="is3ppy" class="gjs-cell col-sm position-relative">
+              <h1 id="ix8pb8">Address
+                <br/>Magoo's Pizza
+              </h1>
+              <div class="layout-placeholder">
+                <div class="layout-placeholder-container">
+                  <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" class="d-block mx-auto">
+                    <circle cx="25" cy="25" r="25" fill="#3871E0">
+                    </circle>
+                    <path d="M23.875 35.5V26.125H14.5V23.875H23.875V14.5H26.125V23.875H35.5V26.125H26.125V35.5H23.875Z" fill="white">
+                    </path>
+                  </svg>
+                  <p class="fw-bold text-black-50 text-center">Drag a block here
+                  </p>
+                </div>
+              </div>
+              <p id="i1eqws">3/F Alegria Alta Building 2294
+                <br/>Chino Roces Avenue Extension,
+                <br/>Makati City 
+              </p>
+            </div>
+          </div>
+          <div class="layout-placeholder">
+            <div class="layout-placeholder-container">
+              <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" class="d-block mx-auto">
+                <circle cx="25" cy="25" r="25" fill="#3871E0">
+                </circle>
+                <path d="M23.875 35.5V26.125H14.5V23.875H23.875V14.5H26.125V23.875H35.5V26.125H26.125V35.5H23.875Z" fill="white">
+                </path>
+              </svg>
+              <p class="fw-bold text-black-50 text-center">Drag a block here
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="itj7ol" class="gjs-cell col-sm position-relative">
+          <contact us="" form_title="" success_message="Thank you for submitting...." button_name="Submit" button_design="[object Object]" button_design_hover="[object Object]" customfieldgrouprepeater="[object Object],[object Object],[object Object],[object Object],[object Object]" store_id="6540355b150019e614b129b9" id="iy7r54" attributes="[object Object]">
+          </contact>
+          <div class="layout-placeholder">
+            <div class="layout-placeholder-container">
+              <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" class="d-block mx-auto">
+                <circle cx="25" cy="25" r="25" fill="#3871E0">
+                </circle>
+                <path d="M23.875 35.5V26.125H14.5V23.875H23.875V14.5H26.125V23.875H35.5V26.125H26.125V35.5H23.875Z" fill="white">
+                </path>
+              </svg>
+              <p class="fw-bold text-black-50 text-center">Drag a block here
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="layout-placeholder">
+        <div class="layout-placeholder-container">
+          <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" class="d-block mx-auto">
+            <circle cx="25" cy="25" r="25" fill="#3871E0">
+            </circle>
+            <path d="M23.875 35.5V26.125H14.5V23.875H23.875V14.5H26.125V23.875H35.5V26.125H26.125V35.5H23.875Z" fill="white">
+            </path>
+          </svg>
+          <p class="fw-bold text-black-50 text-center">Drag a block here
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div id="i4ehws">
+    <link href="https://db.onlinewebfonts.com/c/e55e9079ee863276569c8a68d776ef04?family=Futura+Md+BT+Medium" rel="stylesheet"/>
+  </div>
+</body>
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+*{
+  box-sizing:border-box;
+}
+body{
+  margin:0;
+}
+.slick-slider-hero .slick-slide{
+  opacity:0;
+  transition:opacity 0.3s;
+}
+.slick-slider-hero .slick-slide.slick-current{
+  opacity:1;
+}
+.slick-slider-hero .slick-dots{
+  position:absolute;
+  bottom:20px;
+  left:0;
+  right:0;
+  display:flex;
+  justify-content:center;
+  padding:0;
+}
+.slick-slider-hero .slick-dots li{
+  list-style:none;
+  margin:0 5px;
+}
+.slick-slider-hero .slick-dots li button{
+  background-color:#fff;
+  border:1px solid rgba(0, 0, 0, 0.2);
+  border-radius:50%;
+  width:20px;
+  height:20px;
+  cursor:pointer;
+  outline:none;
+  text-indent:-9999em;
+}
+.slick-slider-hero .slick-dots li.slick-active button{
+  background-color:#bbb;
+}
+.content-left img{
+  height:100%;
+  width:100%;
+  max-height:300px;
+  max-width:850px;
+  object-fit:cover;
+}
+.content-right img{
+  height:100%;
+  width:100%;
+  max-height:300px;
+  max-width:850px;
+  object-fit:cover;
+}
+.hero-media:not(:only-child){
+  display:none;
+}
+.call-to-action a{
+  font-size:18px;
+}
+.image-container .image-icon{
+  width:100%;
+  height:100%;
+}
+.image-container .image-icon:not(:only-child){
+  display:none;
+  pointer-events:none;
+  position:absolute;
+  width:fit-content;
+}
+.gjs-row{
+  min-height:300px;
+  margin:0 !important;
+  padding:10px;
+}
+.gjs-cell{
+  min-height:300px;
+}
+.layout-placeholder{
+  display:none;
+  pointer-events:none;
+  position:absolute;
+  width:fit-content;
+}
+.layout-placeholder:only-child{
+  left:50%;
+  top:50%;
+  transform:translate(-50%, -50%);
+  display:block;
+}
+#container-2{
+  min-height:300px;
+  height:100%;
+  padding:70px 0px 70px 0px;
+}
+#section-2{
+  background-color:#000000;
+}
+blockquote{
+  position:relative;
+  padding-left:20px;
+  undefined:undefined;
+  font-style:italic;
+}
+blockquote::before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  width:5px;
+  undefined:undefined;
+  height:100%;
+  background-color:#777777;
+}
+#ire7d{
+  line-height:1.7em;
+  font-family:"Gotham Book", sans-serif;
+  color:rgb(255, 255, 255);
+}
+#idhfa{
+  color:black;
+  width:100%;
+  box-shadow:0px 0px 15px 0px rgba(0,0,0,0.5);
+}
+.category-section .category-title{
+  color:#4F4130;
+}
+.category-section .slick-slide{
+  opacity:1;
+  transition:opacity 0.3s;
+}
+.category-section .slick-slide.slick-current{
+  opacity:1;
+}
+.category-section .slick-dots{
+  position:absolute;
+  bottom:20px;
+  left:0;
+  right:0;
+  display:flex;
+  justify-content:center;
+}
+.category-section .slick-dots li{
+  list-style:none;
+  margin:0 5px;
+}
+.category-section .slick-dots li button{
+  background-color:#fff;
+  border:1px solid rgba(0, 0, 0, 0.2);
+  border-radius:50%;
+  width:20px;
+  height:20px;
+  cursor:pointer;
+  outline:none;
+  text-indent:-9999em;
+}
+.category-section .slick-dots li.slick-active button{
+  background-color:#bbb;
+}
+.category-section .category-card a{
+  color:unset;
+  text-decoration:unset;
+  width:100%;
+}
+.category-card a:hover{
+  color:unset;
+  text-decoration:unset;
+}
+.category-section .img-container img{
+  aspect-ratio:1/1;
+  object-fit:contain;
+}
+#iu67yw{
+  min-height:300px;
+  height:100%;
+}
+#ihm964{
+  background-color:#242525;
+  padding:70px 0px 70px 0px;
+}
+#i7sg08{
+  color:#ffffff;
+  font-size:16px;
+  font-weight:700;
+  padding:0px 0px 0.5rem 0px;
+  margin:0 0 0px 0;
+}
+#i9iq26{
+  color:#ffffff;
+  line-height:1.7em;
+  font-size:14px;
+  margin:0px 0 0 0;
+  padding:0px 0 0 0;
+}
+#is7dxl{
+  display:inline-block;
+  min-width:50px;
+  margin:0px 0 0 0;
+}
+#iw2vnj{
+  display:inline-block;
+  min-width:50px;
+  margin:0px 0 0 0;
+}
+#i45eej{
+  display:inline-block;
+  min-width:50px;
+  margin:0px 0 0 0;
+}
+#i03jxa{
+  color:#ffffff;
+  font-size:16px;
+  font-weight:700;
+  padding:0px 0px 0.5rem 0px;
+  margin:0 0 0px 0;
+}
+#ipptxz{
+  padding:0px 0px 1rem 0px;
+  color:#ffffff;
+  line-height:1.7em;
+  font-size:14px;
+  margin:0px 0 0 0;
+}
+#ix8pb8{
+  color:#ffffff;
+  font-size:16px;
+  font-weight:700;
+  padding:0px 0px 0.5rem 0px;
+  margin:0 0 0px 0;
+}
+#itj7ol{
+  padding:15px 0px 0px 0px;
+}
+#io6ext{
+  color:#ffffff;
+  text-align:center;
+  font-weight:700;
+  font-size:2rem;
+}
+#i0bjn{
+  min-height:50px;
+  display:flex;
+  align-items:center;
+}
+#ir5bj7{
+  font-weight:700;
+  font-size:36px;
+  color:#ffffff;
+}
+#i6h6eh{
+  color:rgb(255, 255, 255);
+  text-decoration-line:none;
+  outline:0px;
+  font-family:Roboto, sans-serif;
+}
+#iojt0v{
+  color:rgb(255, 255, 255);
+  text-decoration-line:none;
+  outline:0px;
+  font-family:Roboto, Arial, sans-serif;
+}
+#container{
+  background-color:rgba(0,0,0,0.3);
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  align-content:center;
+  min-height:75vh;
+}
+#section{
+  background-image:url('https://p1-mediaserver.s3.ap-southeast-1.amazonaws.com/page-builder/store/images/1699226699277-FRONT.jpg');
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-attachment:scroll;
+  background-size:cover;
+}
+#itakls{
+  text-align:center;
+  font-family:Roboto, Arial, sans-serif;
+  font-weight:300;
+  font-size:72px;
+  color:#ffffff;
+  margin:0px 0px 80px 0px;
+}
+#ihm0uz{
+  background-color:#e2af3a;
+  border:2px solid #e2af3a;
+  border-radius:0px 0 0 0;
+  color:#000000;
+  font-size:18px;
+  padding:8px 32px 8px 32px;
+}
+#container-5{
+  min-height:300px;
+  height:100%;
+  padding:50px 0px 50px 0px;
+}
+#im0r95{
+  text-align:center;
+  font-size:50px;
+}
+#iifx7a{
+  text-align:center;
+}
+#i95cyi{
+  padding:40px 10px 3rem 10px;
+}
+#im6o38{
+  border:2px solid #a3a3a3;
+  border-radius:6px 6px 6px 6px;
+  padding:40px 40px 40px 40px;
+  display:flex;
+}
+#ig74qw{
+  color:black;
+  width:350px;
+}
+#izbzl5{
+  font-size:40px;
+}
+#irncgq{
+  font-size:16px;
+}
+#iy259r{
+  flex-direction:column;
+  align-items:flex-start;
+  align-content:center;
+  padding:10px 10px 10px 10px;
+}
+#iqky1h{
+  font-size:16px;
+}
+#i3u00w{
+  font-size:16px;
+}
+#iy3e61{
+  background-color:#e2af3a;
+  border:2px solid #e2af3a;
+  color:#000000;
+  align-content:center;
+  align-items:center;
+  justify-content:center;
+  align-self:auto;
+  font-size:18px;
+  padding:8px 32px 8px 32px;
+  position:absolute;
+  bottom:10px;
+}
+#i5yl7q{
+  color:black;
+  width:350px;
+}
+#itfdkt{
+  font-size:40px;
+}
+#iqzwq2{
+  font-size:16px;
+}
+#ic0aio{
+  font-size:16px;
+}
+#i6mjdm{
+  font-size:16px;
+}
+#iol6ox{
+  background-color:#e2af3a;
+  border:2px solid #e2af3a;
+  color:#000000;
+  align-content:center;
+  align-items:center;
+  justify-content:center;
+  align-self:auto;
+  font-size:18px;
+  padding:8px 32px 8px 32px;
+  position:absolute;
+  bottom:10px;
+}
+#iofi89{
+  flex-direction:column;
+  align-items:flex-start;
+  align-content:center;
+  padding:10px 10px 10px 10px;
+}
+#ii8bjh{
+  border:2px solid #a3a3a3;
+  border-radius:6px 6px 6px 6px;
+  padding:40px 40px 40px 40px;
+  display:flex;
+}
+#is9gbm{
+  padding:10px 10px 3rem 10px;
+}
+#ifol15{
+  font-weight:500;
+  color:#ffffff;
+}
+#iebhtj{
+  color:#ffffff;
+  font-weight:500;
+}
+#ih4r62{
+  color:#333333;
+}
+#i1eqws{
+  color:#ffffff;
+}
+#ivk9ni{
+  color:rgb(255, 255, 255);
+  text-decoration-line:none;
+  outline:0px;
+  font-family:futuraMediumBT, serif;
+}
+#fontsninja-text-184{
+  font-style:inherit;
+  font-size:inherit;
+  color:inherit;
+  font-family:Roboto, Arial, sans-serif;
+}
+#icp8ct{
+  font-style:inherit;
+  font-size:inherit;
+  color:inherit;
+  font-family:Roboto, Arial, sans-serif;
+}
+#ieonfp{
+  color:rgb(255, 255, 255);
+  text-decoration-line:none;
+  outline:0px;
+  font-family:Roboto, Arial, sans-serif;
+}
+#i0qqpd{
+  background-color:#e2af3a;
+  border:2px solid #e2af3a;
+  border-radius:0px 0 0 0;
+  color:#000000;
+  align-content:center;
+  align-items:center;
+  justify-content:center;
+  align-self:auto;
+  text-align:center;
+  font-size:18px;
+  padding:8px 32px 8px 32px;
+}
+#container-6{
+  height:100%;
+  text-align:center;
+}
+#i3hd0g{
+  margin:0px 0px !important 0px !important 0px !important;
+  padding:10px 10px 10px 50px;
+}
+#i60vrl{
+  padding:10px 10px 10px 50px;
+}
+.futura-std-font{
+  font-family:"Futura Md BT Medium" !important;
+}
+.custom-product .btn.w-100{
+  background-color:transparent !important;
+  border:1px solid lightgray !important;
+  color:black !important;
+  border-radius:0px;
+}
+.custom-product .btn.w-100:hover{
+  background-color:transparent !important;
+}
+.shimmer{
+  color:grey;
+  -webkit-mask:linear-gradient(-60deg,#000 30%,#0005,#000 70%) right/300% 100%;
+  background-repeat:no-repeat;
+  animation:shimmer 2.5s infinite;
+}
+.btn{
+  color:black;
+  border-color:#e2af3a !important;
+  background-image:linear-gradient(45deg, #DDA52E 50%, transparent 50%);
+  background-position:100%;
+  background-size:400%;
+  -webkit-transition:background 300ms ease-in-out;
+  transition:background 300ms ease-in-out;
+  border-radius:0px;
+}
+.btn:hover{
+  color:black !important;
+  background-position:0;
+  background-color:white !important;
+}
+.contact-us.btn{
+  border-color:#cb091c !important;
+}
+.contact-us .btn{
+  border-color:#cb091c !important;
+}
+.contact-us .btn:hover{
+  border-color:#DDA52E !important;
+}
+@keyframes fadeIn{
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+}
+@keyframes slide-up{
+  from{
+    transform:translateY(100%);
+  }
+  to{
+    transform:translateY(0);
+  }
+}
+@keyframes shimmer{
+  100%{
+    -webkit-mask-position:left;
+  }
+}
+@media (max-width: 992px){
+  #il50d{
+    display:flex;
+    flex-direction:column;
+  }
+  #ire7d{
+    text-align:center;
+  }
+  #i576u{
+    text-align:center;
+  }
+  #ig74qw{
+    width:100%;
+    margin:0px 0px 15px 0px;
+  }
+  #im6o38{
+    flex-direction:column;
+    padding:20px 20px 20px 20px;
+    text-align:center;
+  }
+  #i3hd0g{
+    padding:0px 0px 0 0px;
+    min-height:50px;
+  }
+  #ii8bjh{
+    flex-direction:column;
+    padding:20px 20px 20px 20px;
+    text-align:center;
+  }
+  #i5yl7q{
+    width:100%;
+    margin:0px 0px 15px 0px;
+  }
+  #i60vrl{
+    padding:0px 0px 0 0px;
+    min-height:50px;
+  }
+  #iae4i6{
+    min-height:50px;
+    padding:10px 10px 10px 10px;
+  }
+  #izbzl5{
+    text-align:center;
+  }
+  #irncgq{
+    text-align:center;
+  }
+  #iqky1h{
+    text-align:center;
+  }
+  #i3u00w{
+    text-align:center;
+  }
+  #iy259r{
+    text-align:center;
+    min-height:50px;
+    padding:0px 0px 0 0px;
+  }
+  #iy3e61{
+    width:100%;
+    position:relative;
+    bottom:auto;
+  }
+  #iofi89{
+    text-align:center;
+    min-height:50px;
+    padding:0 0px 0px 0px;
+  }
+  #iol6ox{
+    width:100%;
+    position:relative;
+    bottom:auto;
+  }
+  #i9ljm6{
+    display:flex;
+    flex-direction:column;
+  }
+  #izaopa{
+    display:flex;
+    flex-direction:column;
+  }
+  #is3ppy{
+    min-height:50px;
+    padding:10px 10px 10px 10px;
+  }
+  #i7sg08{
+    text-align:center;
+  }
+  #i9iq26{
+    text-align:center;
+  }
+  #i03jxa{
+    text-align:center;
+  }
+  #ipptxz{
+    text-align:center;
+  }
+  #i1eqws{
+    text-align:center;
+  }
+  #ix8pb8{
+    text-align:center;
+  }
+  #container{
+    min-height:75vh;
+  }
+}
+@media (max-width: 768px){
+  .gjs-row{
+    height:100%;
+  }
+}
+@media (max-width: 480px){
+  #i0bjn{
+    padding:10px 10px 10px 10px;
+  }
+  #itakls{
+    font-size:45px;
+  }
+  #container{
+    min-height:50vh;
+  }
+  #im0r95{
+    font-size:32px;
+  }
+  #iifx7a{
+    padding:0px 20px 0px 20px;
+  }
+  #ig74qw{
+    width:100%;
+    height:250px;
+  }
+  #i3hd0g{
+    padding:10px 10px 10px 10px;
+  }
+  #im6o38{
+    flex-direction:column;
+    padding:10px 10px 10px 10px;
+  }
+  #izbzl5{
+    font-size:32px;
+  }
+  #ii8bjh{
+    padding:10px 10px 10px 10px;
+    flex-direction:column;
+  }
+  #i5yl7q{
+    width:100%;
+    height:250px;
+  }
+  #i60vrl{
+    padding:10px 10px 10px 10px;
+  }
+  #itfdkt{
+    font-size:32px;
+  }
+  #iae4i6{
+    min-height:200px;
+  }
+  #i9ljm6{
+    padding:10px 0px 10px 0px;
+  }
+  #iiw1la{
+    padding:0 0px 0 0;
+  }
+}
+@keyframes slide-left1{
+  from{
+    transform:translateX(50%);
+  }
+  to{
+    transform:translateX(0);
+  }
+}
+@keyframes slide-right1{
+  from{
+    transform:translateX(0);
+  }
+  to{
+    transform:translateX(50%);
+  }
+}
+</style>

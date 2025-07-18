@@ -1,0 +1,70 @@
+<div class="container mt-4" data-gjs-removable="false" data-gjs-copyable="false" data-gjs-draggable="false" data-gjs-selectable="false">
+  <div class="row" data-gjs-removable="false" data-gjs-copyable="false" data-gjs-draggable="false" data-gjs-selectable="false">
+    <div class="col-md-3 p-1 p-md-2 py-0 py-md-0 pe-0 pe-md-0" data-gjs-removable="false" data-gjs-copyable="false" data-gjs-draggable="false">
+      <ul aria-orientation="vertical" role="tablist" id="v-pills-tab" class="nav flex-column nav-pills border border-black border-start-0 border-top-0 border-bottom-0" data-gjs-removable="false" data-gjs-copyable="false" data-gjs-draggable="false" data-gjs-selectable="false">
+        <li role="presentation" class="nav-item" data-gjs-removable="false" data-gjs-copyable="false" data-gjs-draggable="false" data-gjs-selectable="false">
+          <a aria-selected="true" aria-controls="tab1" role="tab" type="button" data-bs-target="#tab1" data-bs-toggle="pill" id="tab1-tab" class="nav-link active" data-gjs-removable="false" data-gjs-copyable="false" data-gjs-draggable="false">
+            Carat Weight
+          </a>
+        </li>
+        <li role="presentation" class="nav-item" data-gjs-removable="false" data-gjs-copyable="false" data-gjs-draggable="false" data-gjs-selectable="false">
+          <a aria-selected="false" aria-controls="tab2" role="tab" type="button" data-bs-target="#tab2" data-bs-toggle="pill" id="tab2-tab" class="nav-link" data-gjs-removable="false" data-gjs-copyable="false" data-gjs-draggable="false">
+            Color
+          </a>
+        </li>
+        <li role="presentation" class="nav-item" data-gjs-removable="false" data-gjs-copyable="false" data-gjs-draggable="false" data-gjs-selectable="false">
+          <a aria-selected="false" aria-controls="tab3" role="tab" type="button" data-bs-target="#tab3" data-bs-toggle="pill" id="tab3-tab" class="nav-link" data-gjs-removable="false" data-gjs-copyable="false" data-gjs-draggable="false">
+            Clarity
+          </a>
+        </li>
+        <li role="presentation" class="nav-item" data-gjs-removable="false" data-gjs-copyable="false" data-gjs-draggable="false" data-gjs-selectable="false">
+          <a aria-selected="false" aria-controls="tab4" role="tab" type="button" data-bs-target="#tab4" data-bs-toggle="pill" id="tab4-tab" class="nav-link" data-gjs-removable="false" data-gjs-copyable="false" data-gjs-draggable="false">
+            Cut
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-9 p-1 p-md-2" data-gjs-removable="false" data-gjs-copyable="false" data-gjs-draggable="false" data-gjs-selectable="false">
+      <div id="v-pills-tabContent" class="tab-content p-1 p-md-2" data-gjs-removable="false" data-gjs-copyable="false" data-gjs-draggable="false" data-gjs-selectable="false">
+        <div aria-labelledby="tab1-tab" role="tabpanel" id="tab1" class="tab-pane fade show active p-1 p-md-2" data-gjs-removable="false" data-gjs-copyable="false" data-gjs-draggable="false" data-gjs-selectable="false">
+          <h2 class="playfair-display-cfont" data-gjs-removable="false" data-gjs-copyable="true" data-gjs-draggable="false" data-gjs-selectable="true">Carat Weight
+          </h2>
+          <p data-gjs-removable="false" data-gjs-copyable="true" data-gjs-draggable="false" data-gjs-selectable="true" class="text-black">Diamond carat weight is the measurement of how much a diamond weights. Each carat can be subdivided into 100 points.Many people assume that prices increase the more carats a diamond weighs, but two diamonds of equal carat weight can be priced very differently dependin g on their clarity, color, and cut.
+          </p>
+        </div>
+        <div aria-labelledby="tab2-tab" role="tabpanel" id="tab2" class="tab-pane fade p-1 p-md-2" data-gjs-removable="false" data-gjs-copyable="false" data-gjs-draggable="false" data-gjs-selectable="false">
+          <h2 data-gjs-removable="false" data-gjs-copyable="true" data-gjs-draggable="false" data-gjs-selectable="true" class="playfair-display-cfont">Color
+          </h2>
+          <p data-gjs-removable="false" data-gjs-copyable="true" data-gjs-draggable="false" data-gjs-selectable="true" class="text-black">Diamond color refers to how colorless a diamond is. The less color, the higher the grade. The Gemological Institute of America (GIA) grades diamond color on a scale from D (colorless) to Z (light yellow or brown). Even a slight difference in color can affect a diamond’s value and visual appeal.
+          </p>
+        </div>
+        <div aria-labelledby="tab3-tab" role="tabpanel" id="tab3" class="tab-pane fade p-1 p-md-2" data-gjs-removable="false" data-gjs-copyable="false" data-gjs-draggable="false" data-gjs-selectable="false">
+          <h2 data-gjs-removable="false" data-gjs-copyable="true" data-gjs-draggable="false" data-gjs-selectable="true" class="playfair-display-cfont">Clarity
+          </h2>
+          <p data-gjs-removable="false" data-gjs-copyable="true" data-gjs-draggable="false" data-gjs-selectable="true" class="text-black">Clarity measures the presence of internal or external imperfections, called inclusions and blemishes. Most are microscopic and do not affect a diamond’s beauty, but the fewer the imperfections, the higher the clarity grade and price. Common grades range from Flawless (FL) to Included (I).
+          </p>
+        </div>
+        <div aria-labelledby="tab4-tab" role="tabpanel" id="tab4" class="tab-pane fade p-1 p-md-2" data-gjs-removable="false" data-gjs-copyable="false" data-gjs-draggable="false" data-gjs-selectable="false">
+          <h2 data-gjs-removable="false" data-gjs-copyable="true" data-gjs-draggable="false" data-gjs-selectable="true" class="playfair-display-cfont">Cut
+          </h2>
+          <p data-gjs-removable="false" data-gjs-copyable="true" data-gjs-draggable="false" data-gjs-selectable="true" class="text-black">Cut is arguably the most important factor affecting a diamond's sparkle and brilliance. It refers to how well a diamond’s facets interact with light. A well-cut diamond will appear more radiant and lively. Grades range from Excellent to Poor, and even a perfectly colorless diamond can appear dull if poorly cut.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <style>
+    #v-pills-tab.nav-pills a.nav-link{
+      size:18px;
+      color: black;
+      border-radius: 0px;
+      min-height:36px;
+    }
+    #v-pills-tab.nav-pills .nav-link.active{
+      border-right: 4px solid #DBBF71;
+      color: #000000;
+      background-color: transparent;
+      font-weight: 700;
+    }
+  </style>
+</div>

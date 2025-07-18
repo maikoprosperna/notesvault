@@ -1,0 +1,415 @@
+<body id="ipax">
+  <section id="iv405" class="gjs-section position-relative">
+    <div id="container" class="gjs-container container">
+      <h2 id="i1mmzj" class="playfair-display-cfont text-center wow animate__animated animate__fadeInUp">Videos
+      </h2>
+    </div>
+  </section>
+  <section id="it1l" class="gjs-section position-relative">
+    <div id="container-2" class="gjs-container container p-2">
+      <div id="iv9t" class="gjs-row row bs-row p-2">
+        <!-- Videos will be loaded here by JavaScript -->
+      </div>
+    </div>
+  </section>
+  <script>
+    async function fetchVideoData() {
+      try {
+        // NOTE: Please replace with the actual URL to your CSV file on the S3 bucket
+        const csvUrl = 'https://p1-mediaserver.s3.ap-southeast-1.amazonaws.com/media/682c27b4bf13aac97635eb2a/maytalhanna_video_array.csv';
+        const fetchUrl = csvUrl + '?cb=' + Date.now(); // cache-busting
+        const response = await fetch(fetchUrl);
+        const csvText = await response.text();
+        
+        // Parse CSV
+        // Custom parsing to handle missing newlines in the provided CSV file
+        const headerLine = csvText.substring(0, csvText.indexOf('\n') > -1 ? csvText.indexOf('\n') : csvText.length).trim();
+        const dataText = csvText.substring(headerLine.length).trim();
+
+        const rows = dataText.split(/(?=video-\d)/).map(r => r.trim());
+        const lines = [headerLine, ...rows].filter(line => line);
+        
+        if (lines.length < 2) {
+          console.error('CSV does not have enough rows');
+          return [];
+        }
+        const headers = lines[0].split(',').map(h => h.trim());
+        const data = lines.slice(1).map(line => {
+          const values = line.match(/(".*?"|[^",\s]+)(?=\s*,|\s*$)/g) || [];
+          const cleaned = values.map(v => v.replace(/^"|"$/g, '').trim());
+          const obj = {};
+          headers.forEach((header, i) => obj[header] = cleaned[i] || '');
+          return obj;
+        });
+        
+        // Transform to video format based on the new CSV structure
+        const transformedData = data.map((row, rowIndex) => ({
+          id: row.id,
+          title: row['video-title'],
+          description: row['video-description'],
+          videoLink: row['video-link'],
+        }));
+        
+        console.log('Successfully mapped the video data:', transformedData);
+        return transformedData;
+      } catch (error) {
+        console.error('Error fetching video data from CSV:', error);
+        return [];
+      }
+    }
+
+    function getYoutubeEmbedUrl(url) {
+        if (!url) return '';
+        let videoId;
+        try {
+            const urlObj = new URL(url);
+            if (urlObj.hostname === 'youtu.be') {
+                videoId = urlObj.pathname.slice(1);
+            } else if (urlObj.hostname.includes('youtube.com')) {
+                videoId = urlObj.searchParams.get('v');
+            }
+        } catch(e) {
+            if (url.length === 11 && !url.includes('/')) {
+                videoId = url;
+            }
+        }
+
+        if(videoId) {
+            return `https://www.youtube.com/embed/${videoId}`;
+        }
+        return '';
+    }
+
+    async function renderVideos() {
+        const videos = await fetchVideoData();
+        const container = document.getElementById('iv9t');
+
+        if (!container) {
+            console.error('Container for videos not found');
+            return;
+        }
+
+        container.innerHTML = ''; // Clear existing static content
+
+        if (videos.length === 0) {
+            container.innerHTML = '<p class="text-center" style="color: black;">No videos to display.</p>';
+            return;
+        }
+
+        videos.forEach(video => {
+            const embedUrl = getYoutubeEmbedUrl(video.videoLink);
+            if (!embedUrl) {
+                console.warn(`Could not generate embed URL for video ${video.id} with link ${video.videoLink}`);
+                return; // skip this video
+            }
+            
+            const videoCell = document.createElement('div');
+            videoCell.className = 'gjs-cell col-sm-12 col-md-6 position-relative bs-column p-2 d-flex flex-column';
+            
+            const title = document.createElement('h3');
+            title.textContent = video.title;
+            
+            const description = document.createElement('p');
+            description.textContent = video.description;
+            
+            const iframeContainer = document.createElement('div');
+            iframeContainer.className = 'embed-responsive embed-responsive-16by9';
+
+            const iframe = document.createElement('iframe');
+            iframe.className = 'embed-responsive-item';
+            iframe.setAttribute('allowfullscreen', 'allowfullscreen');
+            iframe.setAttribute('title', 'YouTube video player');
+            iframe.setAttribute('src', embedUrl);
+            iframe.style.width = '100%';
+            iframe.style.minHeight = '300px';
+
+            iframeContainer.appendChild(iframe);
+
+            videoCell.appendChild(title);
+            videoCell.appendChild(description);
+            videoCell.appendChild(iframeContainer);
+            
+            container.appendChild(videoCell);
+        });
+    }
+
+    document.addEventListener('DOMContentLoaded', renderVideos);
+  </script>
+</body>
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+*{
+  box-sizing:border-box;
+}
+body{
+  margin:0;
+}
+#heroCarousel .carousel-text{
+  max-width:700px;
+  z-index:3;
+  undefined:undefined;
+  cursor:text;
+  padding:0 10px;
+}
+#heroCarousel .carousel-text h1, #heroCarousel .carousel-text p{
+  cursor:text;
+}
+#heroCarousel .carousel-text h1{
+  font-size:3rem;
+  font-weight:bold;
+  margin-bottom:0.5rem;
+}
+#heroCarousel .carousel-text p{
+  font-size:1.25rem;
+  margin:0 auto;
+}
+#heroCarousel .carousel-item .container-slide{
+  position:relative;
+  background-size:cover;
+  background-position:center center;
+  min-height:100vh;
+  overflow:hidden;
+}
+#heroCarousel .container-slide::before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color:rgba(0, 0, 0, 0.4);
+  z-index:0;
+  pointer-events:none;
+}
+#heroCarousel .slide1{
+  background-image:url('https://p1media.prosperna.ph/media/682c27b4bf13aac97635eb2a/1747791858394-aba12a4f58e4a07f9a693f46e03ddf18756dc77a.webp');
+}
+#heroCarousel .slide2{
+  background-image:url('https://p1media.prosperna.ph/media/682c27b4bf13aac97635eb2a/1747792871942-Engagement-Photo-20-1.webp');
+}
+#heroCarousel .slide3{
+  background-image:url('https://p1media.prosperna.ph/media/682c27b4bf13aac97635eb2a/1747794288383-IMG_4680.webp');
+}
+#heroCarousel .carousel-indicators button{
+  min-width:88px;
+  min-height:6px;
+}
+.carousel-control-prev:hover .carousel-control-prev-icon, .carousel-control-next:hover .carousel-control-next-icon{
+  opacity:1;
+}
+.gjs-row{
+  min-height:undefinedpx;
+  margin:0 !important;
+  padding:10px;
+}
+.bs-row{
+  min-height:unset;
+}
+.bs-column{
+  min-height:unset;
+}
+.gjs-section:empty:before, .gjs-container:empty:before, .gjs-row:empty:before, .gjs-cell:empty:before{
+  background-color:#ddd;
+  color:#000;
+  font-size:20px;
+  font-weight:bold;
+  height:100%;
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-height:300px;
+  opacity:0.3;
+  border-radius:3px;
+  white-space:pre;
+  overflow:hidden;
+  text-align:center;
+  text-overflow:ellipsis;
+  content:"+ \A Drag a block here";
+}
+blockquote{
+  position:relative;
+  padding-left:20px;
+  undefined:undefined;
+  font-style:italic;
+}
+blockquote::before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  width:5px;
+  undefined:undefined;
+  height:100%;
+  background-color:#777777;
+}
+.title-divider .line{
+  flex:1;
+  height:1px;
+  background-color:black;
+}
+.title-divider .title-text{
+  padding:0 1rem;
+  font-weight:bold;
+  white-space:nowrap;
+  font-size:24px;
+  undefined:undefined;
+}
+#v-pills-tab .nav-pills a.nav-link{
+  size:18px;
+  color:black;
+}
+#v-pills-tab .nav-pills .nav-link.active{
+  border-right:4px solid #DBBF71;
+  color:#000000;
+  background-color:transparent;
+  font-weight:700;
+}
+#v-pills-tab.nav-pills a.nav-link{
+  size:18px;
+  color:black;
+  border-radius:0px;
+  min-height:36px;
+}
+#v-pills-tab.nav-pills .nav-link.active{
+  border-right:4px solid #DBBF71;
+  color:#000000;
+  background-color:transparent;
+  font-weight:700;
+}
+#i1mmzj{
+  color:#272727;
+  font-size:48px;
+  font-weight:700;
+}
+#textCarousel .carousel-control-prev:hover{
+  background:transparent;
+}
+#textCarousel .carousel-control-next:hover{
+  background:transparent;
+}
+#textCarousel .carousel-control-prev:hover, #textCarousel .carousel-control-next:hover{
+  background:transparent;
+}
+#textCarousel .carousel-control-prev, #textCarousel .carousel-control-next{
+  border:none;
+  background:none;
+}
+#textCarousel .carousel-item{
+  min-height:auto;
+}
+#v-pills-tab .nav-link.active{
+  border-right:4px solid #DBBF71;
+  color:#000;
+  background-color:transparent;
+  font-weight:700;
+}
+#v-pills-tab .nav-link:hover{
+  border-right:4px solid #DBBF71;
+  color:#000;
+  background-color:transparent;
+  font-weight:700;
+}
+#v-pills-tab:hover .nav-link.active{
+  border-right:none;
+}
+#v-pills-tab .nav-link.active:hover{
+  border-right:4px solid #DBBF71;
+}
+#textCarousel .carousel-indicators{
+  position:absolute;
+  bottom:-40px;
+}
+#textCarousel .carousel-indicators button{
+  width:18px;
+  height:18px;
+  border:2px solid black;
+  border-radius:50%;
+  background-color:transparent;
+  position:relative;
+  opacity:1;
+  transition:background-color 0.3s ease;
+  bottom:0px;
+}
+#textCarousel .carousel-indicators button::before{
+  content:'';
+  width:8px;
+  height:8px;
+  background-color:black;
+  border-radius:50%;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%) scale(0);
+  transition:transform 0.3s ease;
+}
+#textCarousel .carousel-indicators .active::before{
+  transform:translate(-50%, -50%) scale(1);
+}
+#iv405{
+  padding-top:50px;
+  padding-bottom:50px;
+  background-color:rgba(0,0,0,0.03);
+}
+#it1l{
+  padding-top:50px;
+  padding-bottom:50px;
+}
+#if93p{
+  white-space-collapse:preserve;
+}
+#ioa04{
+  height:100%;
+  min-height:300px;
+}
+@media (max-width: 992px){
+  #heroCarousel .carousel-item .container-slide{
+    min-height:60vh;
+  }
+  #heroCarousel .carousel-text h1{
+    font-size:2.25rem;
+  }
+  #heroCarousel .carousel-text p{
+    font-size:1.1rem;
+  }
+  #heroCarousel .carousel-indicators button{
+    min-width:auto;
+    min-height:auto;
+  }
+  #i1mmzj{
+    font-size:38px;
+  }
+}
+@media (min-width: 768px){
+  .title-divider .title-text{
+    font-size:36px;
+  }
+}
+@media (min-width: 1024px){
+  .title-divider .title-text{
+    font-size:48px;
+  }
+}
+@media (max-width: 576px){
+  #heroCarousel .carousel-item .container-slide{
+    min-height:50vh;
+  }
+  #heroCarousel .carousel-text h1{
+    font-size:1.5rem;
+  }
+  #heroCarousel .carousel-text p{
+    font-size:1rem;
+  }
+}
+@media (max-width: 480px){
+  #i1mmzj{
+    font-size:28px;
+  }
+}
+
+</style>

@@ -1,0 +1,49 @@
+<div id="textCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="d-flex align-items-center justify-content-center gap-4">
+    
+    <!-- Prev Button -->
+    <button class="carousel-control-prev position-static" type="button" data-bs-target="#textCarousel" data-bs-slide="prev">
+      <svg width="41" height="68" viewBox="0 0 41 68" fill="none">
+        <path d="M34.25 67.3332L40.1667 61.4165L12.75 33.9998L40.1667 6.58317L34.25 0.666504L0.916672 33.9998L34.25 67.3332Z" fill="black"></path>
+      </svg>
+      <span class="visually-hidden">Previous</span>
+    </button>
+
+    <!-- Carousel Inner -->
+    <div class="carousel-inner text-center bg-light p-5 rounded shadow-sm flex-grow-1" style="max-width: 800px;">
+      <div class="carousel-item active">
+        <p class="text-black">"Maytal Hannah is an extraordinary artist whose creativity and ingenuity elevates her work above others in the field..."</p>
+        <p class="fw-bold text-black">Andrew</p>
+      </div>
+      <div class="carousel-item">
+        <p class="text-black">“Maytal Hannah created the ring of my dreams with fine craftsmanship and attention to detail..."</p>
+        <p class="fw-bold text-black">Cindy from Missouri</p>
+      </div>
+      <div class="carousel-item">
+        <p class="text-black">“After I discovered Maytal Hannah on Pricescope.com, she designed the perfect engagement ring for me...”</p>
+        <p class="fw-bold text-black">Ann from North Carolina</p>
+      </div>
+    </div>
+
+    <!-- Next Button -->
+    <button class="carousel-control-next position-static" type="button" data-bs-target="#textCarousel" data-bs-slide="next">
+      <svg width="41" height="68" viewBox="0 0 41 68" fill="none">
+        <path d="M6.75004 67.3332L0.833374 61.4165L28.25 33.9998L0.833374 6.58317L6.75004 0.666504L40.0834 33.9998L6.75004 67.3332Z" fill="black"></path>
+      </svg>
+      <span class="visually-hidden">Next</span>
+    </button>
+
+  </div>
+
+  <style>
+    #textCarousel .carousel-control-prev:hover,
+    #textCarousel .carousel-control-next:hover {
+      background: transparent;
+    }
+    #textCarousel .carousel-control-prev,
+    #textCarousel .carousel-control-next {
+      border: none;
+      background: none;
+    }
+  </style>
+</div>

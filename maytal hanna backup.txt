@@ -1,0 +1,1256 @@
+<body id="ivhb" class="bg-white">
+  <div id="heroCarousel" class="carousel slide position-relative bg-black">
+    <!-- Static Text Centered Over Slides -->
+    <div id="iyl2" class="carousel-text text-white p-2 text-center position-absolute top-50 start-50 translate-middle wow animate__animated animated__fadeIn">
+      <h1 id="i8dx" class="text-white playfair-display-cfont animate__fadeInUp animate__animated wow">100% Hand Crafted
+      </h1>
+      <p id="igci" class="animate__fadeInUp animate__animated wow">We’re proud to be one of the few remaining 100% hand crafted designers. Your ring is meticulously designed and made by hand with heirloom quality. 
+      </p>
+    </div>
+    <!-- Indicators -->
+    <div id="it23" class="carousel-indicators wow animate__animated animated__fadeIn">
+      <button aria-label="Slide 1" data-bs-slide-to="0" data-bs-target="#heroCarousel" type="button" id="izsya" class="active"></button>
+      <button aria-current="true" aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#heroCarousel" type="button" id="igqpf"></button>
+      <button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#heroCarousel" type="button" id="i3y88"></button>
+    </div>
+    <!-- Slides -->
+    <div id="iu3rg" class="carousel-inner wow animate__animated animated__fadeIn">
+      <!-- Slide 1 -->
+      <div id="ipnac" class="carousel-item active">
+        <div id="ipf4s" class="slide slide1 container-slide">
+        </div>
+      </div>
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div id="iq38q" class="slide slide2 container-slide">
+        </div>
+      </div>
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <div id="iu45f" class="slide slide3 container-slide">
+        </div>
+      </div>
+    </div>
+    <!-- Controls -->
+    <button data-bs-slide="prev" data-bs-target="#heroCarousel" type="button" id="i3hxn" class="carousel-control-prev wow animate__animated animated__fadeIn"><span aria-hidden="true" class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></button>
+    <button data-bs-slide="next" data-bs-target="#heroCarousel" type="button" id="i2n78" class="carousel-control-next wow animate__animated animated__fadeIn"><span aria-hidden="true" id="iiprr" class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></button>
+  </div>
+  <section id="i1hy5" class="gjs-section position-relative wow animate__animated animate__fadeIn bg-white">
+    <div id="container" class="gjs-container container p-2">
+      <div id="irora" class="gjs-row row bs-row p-0 p-sm-1 p-md-2">
+        <div class="gjs-cell col position-relative bs-column p-0 p-sm-2 p-md-2">
+          <h1 id="i8cbx" class="text-center playfair-display-cfont text-wrap px-2 px-sm-2 px-md-3">What Makes Us Unique?
+          </h1>
+        </div>
+      </div>
+      <div id="i1dkg1" class="gjs-row row bs-row p-0 p-sm-1 p-md-2 wow animate__animated animate__fadeInUp">
+        <div id="iugo6" class="gjs-cell position-relative bs-column p-sm-2 p-md-2 col-12 p-1 gjs-pn-options d-flex flex-column justify-content-center col-md-6 ps-lg-2 p-lg-3 col-sm-6">
+          <h2 id="ishujb" class="playfair-display-cfont">One of a Kind
+          </h2>
+          <p id="izw4pe">We’ll work with you to personally create the ring of your dreams for you or your fiance. Each piece is one of a kind and is made to the highest standards.
+          </p>
+        </div>
+        <div id="i9998" class="gjs-cell position-relative bs-column p-sm-2 p-md-2 col-12 d-flex justify-content-lg-end justify-content-center p-1 col-md-6 p-lg-3 pe-lg-2 col-sm-6">
+          <img src="https://p1media.prosperna.ph/media/682c27b4bf13aac97635eb2a/1747797388974-image%2013%20%281%29.webp" alt="One of a Kind" id="iz0n09"/>
+        </div>
+      </div>
+      <div id="iog4o" class="gjs-row row bs-row p-0 p-sm-1 p-md-2 wow animate__animated animate__fadeInUp">
+        <div id="ismag" class="gjs-cell position-relative bs-column p-sm-2 p-md-2 col-12 d-flex justify-content-center p-1 justify-content-lg-start col-md-6 p-lg-3 ps-lg-2 col-sm-6">
+          <img src="https://p1media.prosperna.ph/media/682c27b4bf13aac97635eb2a/1747797832678-Frame%2047.webp" id="i66sf" alt="100% Hand Crafted"/>
+        </div>
+        <div id="iyzje" class="gjs-cell position-relative bs-column p-sm-2 p-md-2 col-12 p-1 gjs-pn-options d-flex flex-column justify-content-center col-md-6 pe-lg-2 p-lg-3 col-sm-6 align-items-md-start">
+          <h2 id="i7jjh" class="playfair-display-cfont">100% Hand Crafted
+          </h2>
+          <p id="ij9a5">We’re proud to be one of the few remaining 100% hand crafted designers. Your ring is meticulously designed and made by hand with heirloom quality.
+          </p>
+          <a id="iqhzo1" title="SCHEDULE A CONSULATION" class="btn btn-primary border-dark rounded-0">SCHEDULE A CONSULATION</a>
+        </div>
+      </div>
+      <div id="imre9" class="gjs-row row bs-row p-0 p-sm-1 p-md-2 wow animate__animated animate__fadeInUp">
+        <div id="iss65" class="gjs-cell position-relative bs-column p-sm-2 p-md-2 col-12 p-1 gjs-pn-options d-flex flex-column justify-content-center col-md-6 ps-lg-2 p-lg-3 col-sm-6 align-items-md-start">
+          <h2 id="ii92oh" class="playfair-display-cfont">Customer Service
+          </h2>
+          <p id="i601k">We’ll work with you to personally create the ring of your dreams for you or your fiance. Each piece is one of a kind and is made to the highest standards.
+          </p>
+          <a title="SCHEDULE A CONSULATION" id="ikxd8f" class="btn btn-primary border-dark rounded-0">BOOK A CONSULATION</a>
+        </div>
+        <div id="ibc8v" class="gjs-cell position-relative bs-column p-sm-2 p-md-2 col-12 d-flex justify-content-lg-end justify-content-center p-1 col-md-6 p-lg-3 pe-lg-2 col-sm-6">
+          <img src="https://p1media.prosperna.ph/media/682c27b4bf13aac97635eb2a/1747797838273-Frame%2048.webp" id="iix4u" alt="100% Hand Crafted"/>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="iz2kqh" class="gjs-section position-relative py-1 wow animate__animated animate__fadeIn bg-white">
+    <div class="gjs-container container-fluid px-0">
+      <div id="i4d59" class="wow animate__animated animate__fadeInUp">
+        <div class="title-divider">
+          <span class="line"></span>
+          <h1 id="i39z3" class="title-text mb-0 playfair-display-cfont text-wrap px-2 px-sm-2 px-md-3">A Few of our Favorite Pieces
+          </h1>
+          <span class="line"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="ind8k3" class="gjs-section position-relative p-1 p-sm-2 wow animate__animated animate__fadeIn bg-white">
+    <div class="gjs-container container px-1 px-lg-2">
+      <div class="gjs-row row bs-row p-1 p-sm-2">
+        <div id="i9mxpq" class="gjs-cell position-relative bs-column col-12 p-1 wow animate__animated animate__fadeInUp">
+          <h2 id="i0wfo8" class="text-center playfair-display-cfont">Wedding Bands
+          </h2>
+        </div>
+        <div id="iwu72" class="gjs-cell position-relative bs-column col-sm-4 col-12 p-1 wow animate__animated animate__fadeInUp">
+          <div class="image-wrapper p-1">
+            <img src="https://p1media.prosperna.ph/media/682c27b4bf13aac97635eb2a/1747804756151-Frame%2035%20%282%29.webp" alt="Descriptive alt text" class="responsive-cover-image bg-black"/>
+          </div>
+        </div>
+        <div id="ib2wc" class="gjs-cell position-relative bs-column col-sm-4 col-12 p-1 wow animate__animated animate__fadeInUp">
+          <div class="image-wrapper p-1">
+            <img src="https://p1media.prosperna.ph/media/682c27b4bf13aac97635eb2a/1747804883675-Frame%2036%20%282%29.webp" alt="Descriptive alt text" class="responsive-cover-image bg-black"/>
+          </div>
+        </div>
+        <div id="ip0h3" class="gjs-cell position-relative bs-column col-sm-4 col-12 p-1 wow animate__animated animate__fadeInUp">
+          <div id="icvkf" class="image-wrapper p-1">
+            <img src="https://p1media.prosperna.ph/media/682c27b4bf13aac97635eb2a/1747804893122-Frame%2037%20%282%29.webp" alt="Descriptive alt text" class="responsive-cover-image bg-black"/>
+          </div>
+        </div>
+        <div id="ie063h" class="gjs-cell position-relative bs-column col-12 p-1 align-items-center justify-content-center d-flex wow animate__animated animate__fadeInUp">
+          <a title="View our Gallery" href="gallery" id="i9ni9h" class="btn btn-primary border-dark rounded-0">VIEW GALLERY</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="iwgiie" class="gjs-section position-relative p-1 p-sm-2 wow animate__animated animate__fadeIn bg-white">
+    <div id="ihlca4" class="gjs-container px-1 container px-lg-2">
+      <div id="i9akkg" class="gjs-row row bs-row p-1 p-lg-2">
+        <div id="itw2s6" class="gjs-cell position-relative bs-column col-12 p-1 wow animate__animated animate__fadeInUp">
+          <h2 id="ied62x" class="text-center playfair-display-cfont">Engagement Rings
+          </h2>
+        </div>
+        <div id="i8deaz" class="gjs-cell position-relative bs-column col-sm-4 col-12 p-1 wow animate__animated animate__fadeInUp">
+          <div id="ishreh" class="image-wrapper p-1">
+            <img src="https://p1media.prosperna.ph/media/682c27b4bf13aac97635eb2a/1747805583313-Frame%2035%20%283%29.webp" alt="Descriptive alt text" id="iwe10w" class="responsive-cover-image bg-black"/>
+          </div>
+        </div>
+        <div id="iexv3o" class="gjs-cell position-relative bs-column col-sm-4 col-12 p-1 wow animate__animated animate__fadeInUp">
+          <div id="isn3t2" class="image-wrapper p-1">
+            <img src="https://p1media.prosperna.ph/media/682c27b4bf13aac97635eb2a/1747805588151-Frame%2036%20%283%29.webp" alt="Descriptive alt text" id="ib1t3s" class="responsive-cover-image bg-black"/>
+          </div>
+        </div>
+        <div id="im1aww" class="gjs-cell position-relative bs-column col-sm-4 col-12 p-1 wow animate__animated animate__fadeInUp">
+          <div id="ik1ekq" class="image-wrapper p-1">
+            <img src="https://p1media.prosperna.ph/media/682c27b4bf13aac97635eb2a/1747805594806-Frame%2037%20%283%29.webp" alt="Descriptive alt text" id="ipbe62" class="responsive-cover-image bg-black"/>
+          </div>
+        </div>
+        <div id="ig106l" class="gjs-cell position-relative bs-column col-12 p-1 align-items-center justify-content-center d-flex wow animate__animated animate__fadeInUp">
+          <a title="View our Gallery" href="gallery" id="i7hlmq" class="btn btn-primary border-dark rounded-0">VIEW GALLERY</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="irukei" class="gjs-section position-relative p-1 p-sm-2 wow animate__animated animate__fadeIn bg-white">
+    <div id="imoefe" class="gjs-container container px-1 px-lg-2">
+      <div id="ikdlac" class="gjs-row row bs-row p-1 p-lg-2">
+        <div id="iqm4dh" class="gjs-cell position-relative bs-column col-12 p-1 wow animate__animated animate__fadeInUp">
+          <h2 id="iw7tjv" class="text-center playfair-display-cfont">Unique Stones
+          </h2>
+        </div>
+        <div id="i7jikx" class="gjs-cell position-relative bs-column col-sm-4 col-12 p-1 wow animate__animated animate__fadeInUp">
+          <div id="imq1aj" class="image-wrapper p-1">
+            <img src="https://p1media.prosperna.ph/media/682c27b4bf13aac97635eb2a/1747805605459-Frame%2035%20%284%29.webp" alt="Descriptive alt text" id="iz9o6k" class="responsive-cover-image bg-black"/>
+          </div>
+        </div>
+        <div id="ipel14" class="gjs-cell position-relative bs-column col-sm-4 col-12 p-1 wow animate__animated animate__fadeInUp">
+          <div id="iyj305" class="image-wrapper p-1">
+            <img src="https://p1media.prosperna.ph/media/682c27b4bf13aac97635eb2a/1747805611722-Frame%2036%20%284%29.webp" alt="Descriptive alt text" id="io0qbh" class="responsive-cover-image bg-black"/>
+          </div>
+        </div>
+        <div id="i07ie3" class="gjs-cell position-relative bs-column col-sm-4 col-12 p-1 wow animate__animated animate__fadeInUp">
+          <div id="it8swm" class="image-wrapper p-1">
+            <img src="https://p1media.prosperna.ph/media/682c27b4bf13aac97635eb2a/1747805625291-Frame%2037%20%284%29.webp" alt="Descriptive alt text" id="iqscyd" class="responsive-cover-image bg-black"/>
+          </div>
+        </div>
+        <div id="iu1kl" class="gjs-cell position-relative bs-column col-12 p-1 align-items-center justify-content-center d-flex wow animate__animated animate__fadeInUp">
+          <a id="i9fugf" title="View our Gallery" href="gallery" class="btn btn-primary border-dark rounded-0">VIEW GALLERY</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="imah9h" class="gjs-section position-relative p-1 p-sm-2 wow animate__animated animate__fadeIn bg-white">
+    <div id="ii9mij" class="gjs-container container px-1 px-lg-2">
+      <div id="i2kk1c" class="gjs-row row bs-row p-1 p-lg-2">
+        <div id="iry5yx" class="gjs-cell position-relative bs-column col-12 p-1 wow animate__animated animate__fadeInUp">
+          <h2 id="ixe6tz" class="text-center playfair-display-cfont">Earrings / Bracelets
+          </h2>
+        </div>
+        <div id="iosbf1" class="gjs-cell position-relative bs-column col-sm-4 col-12 p-1 wow animate__animated animate__fadeInUp">
+          <div id="idxswv" class="image-wrapper p-1">
+            <img src="https://p1media.prosperna.ph/media/682c27b4bf13aac97635eb2a/1747805637785-Frame%2035%20%285%29.webp" alt="Descriptive alt text" id="i6a92k" class="responsive-cover-image bg-black"/>
+          </div>
+        </div>
+        <div id="ium0yh" class="gjs-cell position-relative bs-column col-sm-4 col-12 p-1 wow animate__animated animate__fadeInUp">
+          <div id="ilzgh8" class="image-wrapper p-1">
+            <img src="https://p1media.prosperna.ph/media/682c27b4bf13aac97635eb2a/1747805649184-Frame%2036%20%285%29.webp" alt="Descriptive alt text" id="iz62rb" class="responsive-cover-image bg-black"/>
+          </div>
+        </div>
+        <div id="i7tg5s" class="gjs-cell position-relative bs-column col-sm-4 col-12 p-1 wow animate__animated animate__fadeInUp">
+          <div id="iq0iid" class="image-wrapper p-1">
+            <img src="https://p1media.prosperna.ph/media/682c27b4bf13aac97635eb2a/1747805652698-Frame%2037%20%285%29.webp" alt="Descriptive alt text" id="i2flxs" class="responsive-cover-image bg-black"/>
+          </div>
+        </div>
+        <div id="i4vp8z" class="gjs-cell position-relative bs-column col-12 p-1 align-items-center justify-content-center d-flex wow animate__animated animate__fadeInUp">
+          <a title="View our Gallery" href="gallery" id="i50p9k" class="btn btn-primary border-dark rounded-0">VIEW GALLERY</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="i95xvf" class="gjs-section position-relative p-1 p-sm-2 wow animate__animated animate__fadeIn bg-white">
+    <div id="i44nv6" class="gjs-container container px-1 px-lg-2">
+      <div id="ipqvsj" class="gjs-row row bs-row p-1 p-lg-2">
+        <div id="imfu9g" class="gjs-cell position-relative bs-column col-12 p-1 wow animate__animated animate__fadeInUp">
+          <h2 id="il4hmq" class="text-center">Gent
+          </h2>
+        </div>
+        <div id="ieffjo" class="gjs-cell position-relative bs-column col-sm-4 col-12 p-1 wow animate__animated animate__fadeInUp">
+          <div id="if9gim" class="image-wrapper p-1">
+            <img src="https://p1media.prosperna.ph/media/682c27b4bf13aac97635eb2a/1747805679145-Frame%2035%20%286%29.webp" alt="Descriptive alt text" id="i9lif2" class="responsive-cover-image bg-black"/>
+          </div>
+        </div>
+        <div id="ire774" class="gjs-cell position-relative bs-column col-sm-4 col-12 p-1 wow animate__animated animate__fadeInUp">
+          <div id="itoiqj" class="image-wrapper p-1">
+            <img src="https://p1media.prosperna.ph/media/682c27b4bf13aac97635eb2a/1747805683777-Frame%2036%20%286%29.webp" alt="Descriptive alt text" id="iuv0fd" class="responsive-cover-image bg-black"/>
+          </div>
+        </div>
+        <div id="ikqg24" class="gjs-cell position-relative bs-column col-sm-4 col-12 p-1 wow animate__animated animate__fadeInUp">
+          <div id="imymbf" class="image-wrapper p-1">
+            <img src="https://p1media.prosperna.ph/media/682c27b4bf13aac97635eb2a/1747805683777-Frame%2036%20%286%29.webp" alt="Descriptive alt text" id="ipiicm" class="responsive-cover-image bg-black"/>
+          </div>
+        </div>
+        <div id="i6k3n2" class="gjs-cell position-relative bs-column col-12 p-1 align-items-center justify-content-center d-flex wow animate__animated animate__fadeInUp">
+          <a title="View our Gallery" href="gallery" id="i4r3xi" class="btn btn-primary border-dark rounded-0">VIEW GALLERY</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="ikw9ox" class="gjs-section position-relative pb-1 wow animate__animated animate__fadeIn bg-white">
+    <div id="i5eokr" class="gjs-container container-fluid px-0">
+      <div id="if4wa2" class="wow animate__animated animate__fadeInUp">
+        <div class="title-divider">
+          <span class="line"></span>
+          <h1 id="ione2" class="title-text mb-0 playfair-display-cfont text-wrap px-2 px-sm-2 px-md-3">
+            <span id="ilyble">Personalized Service to</span>
+Find the Quality You Deserve
+          </h1>
+          <span class="line"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="iiywq" class="gjs-section position-relative py-2 wow animate__animated animate__fadeIn bg-white">
+    <div id="container-3" class="gjs-container container px-2">
+      <div id="iv9or8" class="gjs-row row bs-row p-2">
+        <div id="i3qjcq" class="gjs-cell col position-relative bs-column px-2">
+          <h2 id="iad998" class="playfair-display-cfont text-center wow animate__animated animate__fadeInUp">4 C's of a Diamond
+          </h2>
+          <p id="iwmfwa" class="text-black text-center wow animate__animated animate__fadeInUp">
+            <span id="in8mup">When designing your dream ring, you’ll be able to select for carat, color, clarity, and cut. Read</span> below to get to know the process for designing your perfect ring.
+          </p>
+        </div>
+      </div>
+      <div id="iepih3" class="gjs-row row bs-row p-2 d-flex justify-content-center px-1 px-md-2 wow animate__animated animate__fadeInUp">
+        <div id="ixvbth" class="gjs-cell col position-relative bs-column col-lg-10 py-2 px-1">
+          <div id="i93v4" class="px-1 py-1">
+            <div class="container-fluid mt-2 px-1">
+              <div class="row p-1">
+                <div class="col-md-3 p-1 p-md-2 py-0 py-md-0 pe-0 pe-md-0">
+                  <ul id="v-pills-tab" role="tablist" aria-orientation="vertical" class="nav flex-column nav-pills border border-black border-start-0 border-top-0 border-bottom-0">
+                    <li role="presentation" class="nav-item">
+                      <a id="tab1-tab" data-bs-toggle="pill" data-bs-target="#tab1" type="button" role="tab" aria-controls="tab1" aria-selected="true" class="nav-link active">
+                        Carat Weight
+                      </a>
+                    </li>
+                    <li role="presentation" class="nav-item">
+                      <a id="tab2-tab" data-bs-toggle="pill" data-bs-target="#tab2" type="button" role="tab" aria-controls="tab2" aria-selected="false" class="nav-link">
+                        Color
+                      </a>
+                    </li>
+                    <li role="presentation" class="nav-item">
+                      <a id="tab3-tab" data-bs-toggle="pill" data-bs-target="#tab3" type="button" role="tab" aria-controls="tab3" aria-selected="false" class="nav-link">
+                        Clarity
+                      </a>
+                    </li>
+                    <li role="presentation" class="nav-item">
+                      <a id="tab4-tab" data-bs-toggle="pill" data-bs-target="#tab4" type="button" role="tab" aria-controls="tab4" aria-selected="false" class="nav-link">
+                        Cut
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-9 p-1 p-md-2">
+                  <div id="v-pills-tabContent" class="h-100 tab-content p-1 p-md-2">
+                    <div id="tab1" role="tabpanel" aria-labelledby="tab1-tab" class="h-100 tab-pane fade show active p-1 p-md-2">
+                      <h2 id="inz3jo" class="playfair-display-cfont">Carat Weight
+                      </h2>
+                      <p id="i620k6" class="text-black">Diamond carat weight is the measurement of how much a diamond weights. Each carat can be subdivided into 100 points.Many people assume that prices increase the more carats a diamond weighs, but two diamonds of equal carat weight can be priced very differently dependin g on their clarity, color, and cut.
+                      </p>
+                    </div>
+                    <div id="tab2" role="tabpanel" aria-labelledby="tab2-tab" class="h-100 tab-pane fade p-1 p-md-2">
+                      <h2 class="playfair-display-cfont">Color
+                      </h2>
+                      <p class="text-black">Diamond color refers to how colorless a diamond is. The less color, the higher the grade. The Gemological Institute of America (GIA) grades diamond color on a scale from D (colorless) to Z (light yellow or brown). Even a slight difference in color can affect a diamond’s value and visual appeal.
+                      </p>
+                    </div>
+                    <div id="tab3" role="tabpanel" aria-labelledby="tab3-tab" class="h-100 tab-pane fade p-1 p-md-2">
+                      <h2 class="playfair-display-cfont">Clarity
+                      </h2>
+                      <p class="text-black">Clarity measures the presence of internal or external imperfections, called inclusions and blemishes. Most are microscopic and do not affect a diamond’s beauty, but the fewer the imperfections, the higher the clarity grade and price. Common grades range from Flawless (FL) to Included (I).
+                      </p>
+                    </div>
+                    <div id="tab4" role="tabpanel" aria-labelledby="tab4-tab" class="h-100 tab-pane fade p-1 p-md-2">
+                      <h2 class="playfair-display-cfont">Cut
+                      </h2>
+                      <p class="text-black">Cut is arguably the most important factor affecting a diamond's sparkle and brilliance. It refers to how well a diamond’s facets interact with light. A well-cut diamond will appear more radiant and lively. Grades range from Excellent to Poor, and even a perfectly colorless diamond can appear dull if poorly cut.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="ie2yuc" class="gjs-section position-relative pb-1 wow animate__animated animate__fadeIn bg-white">
+    <div class="gjs-container container-fluid px-0">
+      <div id="ie5cln" class="wow animate__animated animate__fadeInUp">
+        <div class="title-divider">
+          <span class="line"></span>
+          <h1 id="ikeqph" class="title-text mb-0 playfair-display-cfont text-wrap px-2 px-sm-2 px-md-3">About The Designer
+          </h1>
+          <span class="line"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="ihs698" class="gjs-section position-relative p-1 p-sm-2 wow animate__animated animate__fadeIn bg-white">
+    <div class="gjs-container container px-1 px-lg-2">
+      <div id="imfdvm" class="gjs-row row bs-row p-1 p-sm-2">
+        <div class="gjs-cell position-relative bs-column col-12 p-1">
+          <div id="ivz7b3" class="gjs-row row bs-row p-0 p-sm-1 p-md-2 wow animate__animated animate__fadeInUp">
+            <div id="iz5wtn" class="gjs-cell position-relative bs-column p-sm-2 p-md-2 col-12 d-flex justify-content-center p-1 col-md-6 p-lg-3 pe-lg-2 col-sm-6 justify-content-lg-start">
+              <img src="https://p1media.prosperna.ph/media/682c27b4bf13aac97635eb2a/1747806110705-Frame%2045%20%282%29.webp" id="id24r" alt="One of a Kind"/>
+            </div>
+            <div id="ixmme8" class="gjs-cell position-relative bs-column p-sm-2 p-md-2 col-12 p-1 gjs-pn-options d-flex flex-column justify-content-center col-md-6 ps-lg-2 p-lg-3 col-sm-6 align-items-md-start">
+              <h2 id="irz06" class="playfair-display-cfont">Maytal Hannah
+              </h2>
+              <p id="in7e8">From her first designs at GIA to her line creations at top jewelers around the globe, Maytal has transcended across all genres of jewelry design.
+              </p>
+              <a title="Learn about Maytal Hannah" href="about" id="iakrim" class="btn btn-primary border-dark rounded-0">LEARN MORE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="icyy3k" class="gjs-row row bs-row p-1 p-sm-2">
+        <div class="gjs-cell position-relative bs-column col-12 p-1">
+          <div id="ih5qe" class="gjs-row row bs-row p-0 p-sm-1 p-md-2 wow animate__animated animate__fadeInUp">
+            <div id="iqoir" class="gjs-cell position-relative bs-column p-sm-2 p-md-2 col-12 p-1 gjs-pn-options d-flex flex-column justify-content-center col-md-6 ps-lg-2 p-lg-3 col-sm-6 align-items-md-start">
+              <h2 id="i1mmzj" class="playfair-display-cfont">Design Process
+              </h2>
+              <p id="i0xh2h">The design process of Maytal’s jewelry is very unique. Using many different skillful techniques, Maytal ensures that each piece is given the maximum attention in all of its stages.
+              </p>
+              <a title="Learn about Maytal Hannah" href="about" id="iw42qi" class="btn btn-primary border-dark rounded-0">LEARN THE DESIGN PROCESS</a>
+            </div>
+            <div id="iedwd" class="gjs-cell position-relative bs-column p-sm-2 p-md-2 col-12 d-flex justify-content-lg-end justify-content-center p-1 col-md-6 p-lg-3 pe-lg-2 col-sm-6">
+              <img src="https://p1media.prosperna.ph/media/682c27b4bf13aac97635eb2a/1747806122483-Frame%2046%20%281%29.webp" alt="One of a Kind" id="iupldh"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="i2zxgx" class="gjs-section position-relative pb-1 wow animate__animated animate__fadeInUp bg-white">
+    <div id="container-2" class="gjs-container container-fluid px-0">
+      <div id="ionv5c">
+        <div class="title-divider">
+          <span class="line"></span>
+          <h1 id="i714e2" class="title-text mb-0 playfair-display-cfont text-wrap px-2 px-sm-2 px-md-3">Customer Testimonials
+          </h1>
+          <span class="line"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="iltyow" class="gjs-section position-relative p-1 p-sm-2 wow animate__animated animate__fadeIn bg-white">
+    <div id="iyqsaf" class="gjs-container container px-1 px-lg-2 d-flex flex-column justify-content-center">
+      <div id="ivsd15">
+        <div data-bs-ride="carousel" id="textCarousel" class="carousel slide">
+          <div class="d-flex align-items-center justify-content-center gap-4 position-relative">
+            <button data-bs-slide="prev" data-bs-target="#textCarousel" type="button" class="carousel-control-prev responsive-control"><svg fill="none" viewBox="0 0 41 68" class="carousel-arrow">
+              <path fill="black" d="M34.25 67.3332L40.1667 61.4165L12.75 33.9998L40.1667 6.58317L34.25 0.666504L0.916672 33.9998L34.25 67.3332Z">
+              </path>
+              </svg><span class="visually-hidden">Previous</span></button>
+            <div id="i253ld" class="carousel-inner text-center p-3 rounded shadow-sm flex-grow-1">
+              <div class="carousel-item active">
+                <p id="ilny2f" class="text-black">“Maytal Hannah is an extraordinary artist whose creativity and ingenuity elevates her work above others in the field. After a lengthy search for the perfect engagement ring, I was referred to Maytal by a friend who had a great experience working with her. I'm personally thrilled to say that working with Maytal was one of the most rewarding decisions I've ever made.”
+                </p>
+              </div>
+              <div class="carousel-item">
+                <p id="igfh3a" class="text-black">“Maytal Hannah created the ring of my dreams with fine craftsmanship and attention to detail. Working with Maytal was a complete pleasure as she understood immediately what I was envisioning and she added suggestions to ensure I was completely satisfied. When I received my ring and I opened the box, it literally took my breath away as it truly is an exquisite work of art! I consider this my forever ring which will be handed down to my daughter as a family heirloom.”
+                </p>
+              </div>
+              <div class="carousel-item">
+                <p class="text-black">“After I discovered Maytal Hannah on Pricescope.com, she designed the perfect  engagement ring for me with two pave halo’s that shape the ring into a cushion cut design with an intricate arrangment of diamonds under the diamond! Her detail all the way down to the milgraining and engraving was incredible at a very affordable price! Since I got my ring 10 years ago, I’ve referred her (and will continue to refer her) to several of my close friends and family whom she’s amazingly made their dreams come true, too!”
+                </p>
+              </div>
+            </div>
+            <button data-bs-slide="next" data-bs-target="#textCarousel" type="button" class="carousel-control-next responsive-control"><svg fill="none" viewBox="0 0 41 68" class="carousel-arrow">
+              <path fill="black" d="M6.75004 67.3332L0.833374 61.4165L28.25 33.9998L0.833374 6.58317L6.75004 0.666504L40.0834 33.9998L6.75004 67.3332Z">
+              </path>
+              </svg><span class="visually-hidden">Next</span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="i5r4lr" class="gjs-section position-relative wow animate__animated animate__fadeIn bg-white">
+    <div id="container-4" class="gjs-container container px-lg-2 px-1 d-flex flex-column justify-content-center">
+      <h1 id="iu39dh" class="text-center playfair-display-cfont text-white wow animate__animated animate__fadeInUp">What's next?
+      </h1>
+      <div id="id2tto" class="gjs-row row bs-row">
+        <div id="ics6ss" class="gjs-cell col position-relative bs-column gap-2 d-flex justify-content-center wow animate__animated animate__fadeInUp">
+          <a title="Learn about Maytal Hannah" href="about" id="i3yt63" class="btn btn-primary rounded-0">VIEW GALLERY</a>
+          <a title="Learn about Maytal Hannah" href="about" id="ify78h" class="btn btn-primary rounded-0">SCHEDULE A CONSULTATION</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+#heroCarousel{
+  position:relative;
+  font-family:Open Sans;
+  font-size:18px;
+}
+#heroCarousel .carousel-text{
+  max-width:700px;
+  z-index:3;
+  undefined:undefined;
+  cursor:text;
+  padding:0 10px;
+}
+#heroCarousel .carousel-text h1, #heroCarousel .carousel-text p{
+  cursor:text;
+}
+#heroCarousel .carousel-text h1{
+  font-size:3rem;
+  font-weight:bold;
+  margin-bottom:0.5rem;
+}
+#heroCarousel .carousel-text p{
+  font-size:1.25rem;
+  margin:0 auto;
+}
+#heroCarousel .carousel-item .container-slide{
+  position:relative;
+  background-size:cover;
+  background-position:center center;
+  min-height:100vh;
+  overflow:hidden;
+}
+#heroCarousel .container-slide::before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color:rgba(0, 0, 0, 0.4);
+  z-index:0;
+  pointer-events:none;
+}
+#heroCarousel .slide1{
+  background-image:url('https://p1media.prosperna.ph/media/682c27b4bf13aac97635eb2a/1747791858394-aba12a4f58e4a07f9a693f46e03ddf18756dc77a.webp');
+}
+#heroCarousel .slide2{
+  background-image:url('https://p1media.prosperna.ph/media/682c27b4bf13aac97635eb2a/1747792871942-Engagement-Photo-20-1.webp');
+}
+#heroCarousel .slide3{
+  background-image:url('https://p1media.prosperna.ph/media/682c27b4bf13aac97635eb2a/1747794288383-IMG_4680.webp');
+}
+#heroCarousel .carousel-indicators button{
+  min-width:88px;
+  min-height:6px;
+}
+.carousel-control-prev-icon{
+  opacity:0;
+  transition:opacity 0.3s ease;
+}
+.carousel-control-next-icon{
+  opacity:0;
+  transition:opacity 0.3s ease;
+}
+.carousel-control-prev{
+  transition:background 0.3s ease;
+  undefined:undefined;
+  border:none;
+  background:none;
+}
+.carousel-control-next{
+  transition:background 0.3s ease;
+  undefined:undefined;
+  border:none;
+  background:none;
+}
+.carousel-control-prev:hover .carousel-control-prev-icon, .carousel-control-next:hover .carousel-control-next-icon{
+  opacity:1;
+}
+.carousel-control-prev:hover{
+  background:linear-gradient(to right, rgba(0,0,0,0.5), transparent);
+}
+.carousel-control-next:hover{
+  background:linear-gradient(to left, rgba(0,0,0,0.5), transparent);
+}
+.gjs-row{
+  min-height:undefinedpx;
+  margin:0 !important;
+  padding:10px;
+}
+.bs-row{
+  min-height:unset;
+}
+.bs-column{
+  min-height:unset;
+}
+.gjs-section:empty:before, .gjs-container:empty:before, .gjs-row:empty:before, .gjs-cell:empty:before{
+  background-color:#ddd;
+  color:#000;
+  font-size:20px;
+  font-weight:bold;
+  height:100%;
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-height:300px;
+  opacity:0.3;
+  border-radius:3px;
+  white-space:pre;
+  overflow:hidden;
+  text-align:center;
+  text-overflow:ellipsis;
+  content:"+ \A Drag a block here";
+}
+#i1hy5{
+  padding-top:50px;
+  padding-bottom:50px;
+  font-family:Open Sans;
+  font-size:18px;
+}
+blockquote{
+  position:relative;
+  padding-left:20px;
+  undefined:undefined;
+  font-style:italic;
+}
+blockquote::before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  width:5px;
+  undefined:undefined;
+  height:100%;
+  background-color:#777777;
+}
+#id24r{
+  color:black;
+  width:100%;
+  max-width:450px;
+}
+#iix4u{
+  color:black;
+  width:100%;
+  max-width:450px;
+}
+#i66sf{
+  color:black;
+  width:100%;
+  max-width:450px;
+}
+#irz06{
+  color:#272727;
+  font-size:40px;
+}
+#i7jjh{
+  color:#272727;
+  font-size:40px;
+}
+#ij9a5{
+  color:#424242;
+}
+#i601k{
+  color:#424242;
+}
+#in7e8{
+  color:#424242;
+}
+#i8cbx{
+  color:#272727;
+  font-size:48px;
+}
+#iiywq{
+  padding-top:50px;
+  padding-bottom:50px;
+  font-family:Open Sans;
+  font-size:18px;
+}
+.title-divider{
+  display:flex;
+  align-items:center;
+  text-align:center;
+  margin:0 0;
+}
+.title-divider .line{
+  flex:1;
+  height:1px;
+  background-color:black;
+}
+.title-divider .title-text{
+  padding:0 1rem;
+  font-weight:bold;
+  white-space:nowrap;
+  font-size:24px;
+  undefined:undefined;
+}
+#i2zxgx{
+  padding-top:50px;
+  padding-bottom:50px;
+  font-family:Open Sans;
+  font-size:18px;
+}
+#ikw9ox{
+  padding-top:50px;
+  padding-bottom:50px;
+  font-family:Open Sans;
+  font-size:18px;
+}
+.image-wrapper{
+  width:100%;
+  aspect-ratio:413 / 260;
+  min-height:260px;
+  overflow:hidden;
+}
+.responsive-cover-image{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+}
+#ii92oh{
+  color:#272727;
+  font-size:40px;
+}
+#ied62x{
+  color:#272727;
+  font-size:40px;
+}
+#iwgiie{
+  padding-top:50px;
+  padding-bottom:50px;
+  font-family:Open Sans;
+  font-size:18px;
+}
+#iw7tjv{
+  color:#272727;
+  font-size:40px;
+}
+#irukei{
+  padding-top:50px;
+  padding-bottom:50px;
+  font-family:Open Sans;
+  font-size:18px;
+}
+#ixe6tz{
+  color:#272727;
+  font-size:40px;
+}
+#imah9h{
+  padding-top:50px;
+  padding-bottom:50px;
+  font-family:Open Sans;
+  font-size:18px;
+}
+#il4hmq{
+  color:#272727;
+  font-size:40px;
+}
+#i95xvf{
+  padding-top:50px;
+  padding-bottom:50px;
+  font-family:Open Sans;
+  font-size:18px;
+}
+#ilyble{
+  display:block;
+}
+#iz2kqh{
+  padding-top:50px;
+  padding-bottom:50px;
+  font-family:Open Sans;
+  font-size:18px;
+}
+#ihs698{
+  padding-top:50px;
+  padding-bottom:50px;
+  font-family:Open Sans;
+  font-size:18px;
+}
+#ishujb{
+  color:#272727;
+  font-size:40px;
+}
+#izw4pe{
+  color:#424242;
+}
+#iz0n09{
+  color:black;
+  width:100%;
+  max-width:450px;
+}
+#ind8k3{
+  padding-top:50px;
+  padding-bottom:50px;
+  font-family:Open Sans;
+  font-size:18px;
+}
+#v-pills-tab .nav-pills a.nav-link{
+  size:18px;
+  color:black;
+}
+#v-pills-tab .nav-pills .nav-link.active{
+  border-right:4px solid #DBBF71;
+  color:#000000;
+  background-color:transparent;
+  font-weight:700;
+}
+#v-pills-tab.nav-pills a.nav-link{
+  size:18px;
+  color:black;
+  border-radius:0px;
+  min-height:36px;
+}
+#v-pills-tab.nav-pills .nav-link.active{
+  border-right:4px solid #DBBF71;
+  color:#000000;
+  background-color:transparent;
+  font-weight:700;
+}
+#in8mup{
+  display:block;
+}
+#i8dx{
+  font-size:64px;
+}
+#igci{
+  font-size:22px;
+}
+#i39z3{
+  font-size:48px;
+}
+#ione2{
+  font-size:48px;
+}
+#i714e2{
+  font-size:48px;
+}
+#iad998{
+  font-size:40px;
+}
+#iwmfwa{
+  font-size:18px;
+}
+#i9fugf:hover{
+  background-color:#ffffff;
+  color:#000000;
+  border:1px solid black;
+}
+#iqhzo1:hover{
+  background-color:#ffffff;
+  color:#000000;
+  border:1px solid black;
+}
+#iqhzo1{
+  background-color:#000000;
+  font-weight:600;
+  color:#ffffff;
+}
+#i9fugf{
+  background-color:#000000;
+  font-weight:600;
+  color:#ffffff;
+}
+#ikxd8f:hover{
+  background-color:#ffffff;
+  color:#000000;
+  border:1px solid black;
+}
+#ikxd8f{
+  background-color:#000000;
+  font-weight:600;
+  color:#ffffff;
+}
+#i0wfo8{
+  color:#272727;
+  font-size:40px;
+}
+#i9ni9h:hover{
+  background-color:#ffffff;
+  color:#000000;
+  border:1px solid black;
+}
+#i9ni9h{
+  background-color:#000000;
+  font-weight:600;
+  color:#ffffff;
+}
+#i7hlmq:hover{
+  background-color:#ffffff;
+  color:#000000;
+  border:1px solid black;
+}
+#i7hlmq{
+  background-color:#000000;
+  font-weight:600;
+  color:#ffffff;
+}
+#i3yt63:hover{
+  background-color:rgba(255,255,255,0.5);
+  color:#000000;
+  border:1px solid black;
+}
+#i3yt63{
+  background-color:transparent;
+  font-weight:600;
+  color:#ffffff;
+  border:1px solid white;
+}
+#i50p9k:hover{
+  background-color:#ffffff;
+  color:#000000;
+  border:1px solid black;
+}
+#i50p9k{
+  background-color:#000000;
+  font-weight:600;
+  color:#ffffff;
+}
+#i4r3xi:hover{
+  background-color:#ffffff;
+  color:#000000;
+  border:1px solid black;
+}
+#i4r3xi{
+  background-color:#000000;
+  font-weight:600;
+  color:#ffffff;
+}
+#iupldh{
+  color:black;
+  width:100%;
+  max-width:450px;
+}
+#i1mmzj{
+  color:#272727;
+  font-size:40px;
+}
+#i0xh2h{
+  color:#424242;
+}
+#iakrim:hover{
+  background-color:#ffffff;
+  color:#000000;
+  border:1px solid black;
+}
+#iakrim{
+  background-color:#000000;
+  font-weight:600;
+  color:#ffffff;
+}
+#iltyow{
+  padding-top:50px;
+  padding-bottom:50px;
+  font-family:Open Sans;
+  font-size:18px;
+}
+#ikeqph{
+  font-size:48px;
+}
+#ie2yuc{
+  padding-top:50px;
+  padding-bottom:50px;
+  font-family:Open Sans;
+  font-size:18px;
+}
+#textCarousel .carousel-control-prev:hover{
+  background:transparent;
+}
+#textCarousel .carousel-control-next:hover{
+  background:transparent;
+}
+#textCarousel .carousel-control-prev:hover, #textCarousel .carousel-control-next:hover{
+  background:transparent;
+}
+#textCarousel .carousel-control-prev, #textCarousel .carousel-control-next{
+  border:none;
+  background:none;
+}
+#textCarousel .carousel-item{
+  min-height:auto;
+}
+.responsive-control{
+  position:static;
+}
+.carousel-arrow{
+  width:36px;
+  height:60px;
+}
+#i5r4lr{
+  padding-top:50px;
+  padding-bottom:50px;
+  background-image:url('https://p1media.prosperna.ph/media/682c27b4bf13aac97635eb2a/1747814796130-image%2012%20%282%29.webp');
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-attachment:scroll;
+  background-size:cover;
+}
+#container-4{
+  min-height:400px;
+}
+#iu39dh{
+  font-size:64px;
+}
+#iw42qi:hover{
+  background-color:#ffffff;
+  color:#000000;
+  border:1px solid black;
+}
+#iw42qi{
+  background-color:#000000;
+  font-weight:600;
+  color:#ffffff;
+}
+#ify78h:hover{
+  background-color:rgba(0,0,0,0.5);
+  border:1px solid black;
+  color:#ffffff;
+}
+#ify78h{
+  background-color:#ffffff;
+  font-weight:600;
+  color:#000000;
+  border:1px solid white;
+}
+#v-pills-tab .nav-link.active{
+  border-right:4px solid #DBBF71;
+  color:#000;
+  background-color:transparent;
+  font-weight:700;
+}
+#v-pills-tab .nav-link:hover{
+  border-right:4px solid #DBBF71;
+  color:#000;
+  background-color:transparent;
+  font-weight:700;
+}
+#v-pills-tab:hover .nav-link.active{
+  border-right:none;
+}
+#v-pills-tab .nav-link.active:hover{
+  border-right:4px solid #DBBF71;
+}
+#i253ld{
+  max-width:800px;
+}
+#iyqsaf{
+  min-height:300px;
+}
+@media (max-width: 992px){
+  #heroCarousel .carousel-item .container-slide{
+    min-height:60vh;
+  }
+  #heroCarousel .carousel-text h1{
+    font-size:2.25rem;
+  }
+  #heroCarousel .carousel-text p{
+    font-size:1.1rem;
+  }
+  #heroCarousel .carousel-indicators button{
+    min-width:auto;
+    min-height:auto;
+  }
+  #id24r{
+    width:100%;
+    max-width:450px;
+    height:auto;
+  }
+  #iix4u{
+    width:100%;
+    max-width:450px;
+    height:auto;
+  }
+  #i66sf{
+    width:100%;
+    max-width:450px;
+    height:auto;
+  }
+  .image-wrapper{
+    aspect-ratio:16 / 10;
+    min-height:180px;
+  }
+  #iz0n09{
+    width:100%;
+    max-width:450px;
+    height:auto;
+  }
+  #irz06{
+    font-size:30px;
+  }
+  #iad998{
+    font-size:30px;
+  }
+  #il4hmq{
+    font-size:30px;
+  }
+  #ixe6tz{
+    font-size:30px;
+  }
+  #iw7tjv{
+    font-size:30px;
+  }
+  #ied62x{
+    font-size:30px;
+  }
+  #ii92oh{
+    font-size:30px;
+  }
+  #i7jjh{
+    font-size:30px;
+  }
+  #ishujb{
+    font-size:30px;
+  }
+  #i8cbx{
+    font-size:35px;
+  }
+  #i39z3{
+    font-size:35px;
+  }
+  #ione2{
+    font-size:35px;
+  }
+  #i714e2{
+    font-size:35px;
+  }
+  #ilyble{
+    display:block;
+  }
+  #iyl2{
+    width:100%;
+  }
+  #i9fugf{
+    border:1px solid black;
+  }
+  #iqhzo1{
+    border:1px solid black;
+  }
+  #ikxd8f{
+    border:1px solid black;
+  }
+  #i0wfo8{
+    font-size:30px;
+  }
+  #i9ni9h{
+    border:1px solid black;
+  }
+  #i7hlmq{
+    border:1px solid black;
+  }
+  #i3yt63{
+    border:1px solid black;
+  }
+  #i50p9k{
+    border:1px solid black;
+  }
+  #i4r3xi{
+    border:1px solid black;
+  }
+  #iupldh{
+    width:100%;
+    max-width:450px;
+    height:auto;
+  }
+  #i1mmzj{
+    font-size:30px;
+  }
+  #iakrim{
+    border:1px solid black;
+  }
+  #ikeqph{
+    font-size:35px;
+  }
+  #iw42qi{
+    border:1px solid black;
+  }
+  #ify78h{
+    border:1px solid black;
+  }
+  #iyqsaf{
+    min-height:400px;
+  }
+}
+@media (max-width: 991.98px){
+  .responsive-control{
+    position:absolute !important;
+    top:50%;
+    transform:translateY(-50%);
+    z-index:2;
+  }
+  .carousel-control-prev{
+    left:-20px;
+  }
+  .carousel-control-next{
+    right:-20px;
+  }
+  .carousel-arrow{
+    width:24px;
+    height:40px;
+  }
+}
+@media (min-width: 768px){
+  .title-divider .title-text{
+    font-size:36px;
+  }
+}
+@media (min-width: 1024px){
+  .title-divider .title-text{
+    font-size:48px;
+  }
+}
+@media (max-width: 768px){
+  .image-wrapper{
+    aspect-ratio:16 / 10;
+    min-height:220px;
+  }
+}
+@media (max-width: 576px){
+  #heroCarousel .carousel-item .container-slide{
+    min-height:50vh;
+  }
+  #heroCarousel .carousel-text h1{
+    font-size:1.5rem;
+  }
+  #heroCarousel .carousel-text p{
+    font-size:1rem;
+  }
+}
+@media (max-width: 575.98px){
+  .carousel-control-prev{
+    left:10px;
+  }
+  .carousel-control-next{
+    right:10px;
+  }
+  .carousel-arrow{
+    width:16px;
+    height:28px;
+  }
+}
+@media (max-width: 480px){
+  .image-wrapper{
+    aspect-ratio:16 / 9;
+    min-height:120px;
+  }
+  #irz06{
+    font-size:20px;
+  }
+  #iad998{
+    font-size:20px;
+  }
+  #il4hmq{
+    font-size:20px;
+  }
+  #ixe6tz{
+    font-size:20px;
+  }
+  #iw7tjv{
+    font-size:20px;
+  }
+  #ied62x{
+    font-size:20px;
+  }
+  #ii92oh{
+    font-size:20px;
+  }
+  #i7jjh{
+    font-size:20px;
+  }
+  #ishujb{
+    font-size:20px;
+  }
+  #i714e2{
+    font-size:25px;
+  }
+  #i8cbx{
+    font-size:25px;
+  }
+  #i39z3{
+    font-size:25px;
+  }
+  #ione2{
+    font-size:25px;
+  }
+  #iyl2{
+    width:100%;
+  }
+  #ilyble{
+    display:inline;
+  }
+  #i0wfo8{
+    font-size:20px;
+  }
+  #i1mmzj{
+    font-size:20px;
+  }
+  #ikeqph{
+    font-size:25px;
+  }
+  #i9998{
+    order:1;
+  }
+  #iugo6{
+    order:2;
+  }
+  #ibc8v{
+    order:1;
+  }
+  #iss65{
+    order:2;
+  }
+  #iqoir{
+    order:2;
+  }
+  #iedwd{
+    order:1;
+  }
+  #iyqsaf{
+    min-height:600px;
+  }
+}
+</style>

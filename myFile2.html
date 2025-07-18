@@ -1,0 +1,288 @@
+<body id="it99">
+  <section id="i2x2" class="gjs-section position-relative py-2 bg-black">
+    <div id="container" class="gjs-container container p-2 d-flex justify-content-center align-items-center">
+      <h1 id="i4bd" class="playfair-display-cfont text-white">Gallery
+      </h1>
+    </div>
+  </section>
+  <section id="ip644" class="gjs-section position-relative py-2 bg-black">
+    <div id="io8l" class="gjs-container container p-2 d-flex justify-content-center align-items-center px-lg-5">
+      <div id="itauj" class="gjs-row row bs-row d-flex justify-content-center align-items-center p-2">
+        <div id="i5bgh" class="gjs-cell col position-relative bs-column py-2 col-lg-10">
+          <p id="izfeu" class="text-center text-white mb-0">Feel free to browse the gallery below for inspiration on luxury jewelry and engagement rings. All the pieces you see here were custom made and hand forged. We'd love to work with you on designing and creating your dream piece, so contact us if you find something you like!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div id="iryakm">
+    <div>
+      <script>
+        console.log("Filter script loaded and running!");
+        // Run immediately, no DOMContentLoaded
+        document.querySelectorAll('.filter').forEach(cb => {
+          cb.addEventListener('change', function() {
+            console.log("Checkbox changed!");
+            const checked = Array.from(document.querySelectorAll('.filter:checked')).map(cb => cb.getAttribute('data-filter'));
+            document.querySelectorAll('.masonry-item').forEach(col => {
+              const colClasses = Array.from(col.classList);
+              const matches = checked.every(f => col.classList.contains(f));
+              console.log('col:', col, 'colClasses:', colClasses, 'matches:', matches);
+              if (checked.length === 0) {
+                col.classList.remove('d-none');
+                return;
+              }
+              col.classList.toggle('d-none', !matches);
+            }
+                                                              );
+          }
+                             );
+        }
+                                                    );
+      </script>
+    </div>
+  </div>
+  <section id="i4ojj" class="gjs-section position-relative py-2 bg-black">
+    <div id="ihjdq" class="gjs-container container p-2">
+      <div class="gjs-row row bs-row">
+        <div id="iyy4k" class="gjs-cell col-12 col-lg-2 order-1 order-lg-1 position-relative bs-column p-2">
+          <button type="button" data-bs-toggle="collapse" data-bs-target="#filtersCollapse" aria-expanded="false" aria-controls="filtersCollapse" class="btn btn-outline-light w-100 d-lg-none mb-3">
+            Filters
+          </button>
+          <div id="ic6oh">
+            <div id="filtersCollapse" class="collapse d-lg-block">
+              <p id="i0nd" class="text-white mb-0">Category
+              </p>
+              <label class="text-white"><input id="i0g3i" title="engagement" data-filter="engagement" type="checkbox" class="filter"/> Engagement rings</label>
+              <br/>
+              <label class="text-white"><input title="wedding" data-filter="wedding" type="checkbox" class="filter"/> Wedding bands</label>
+              <br/>
+              <label class="text-white"><input title="unique" data-filter="unique" type="checkbox" class="filter"/> Unique stones</label>
+              <br/>
+              <label class="text-white"><input title="earrings" data-filter="earrings" type="checkbox" class="filter"/> Earrings</label>
+              <br/>
+              <label class="text-white"><input title="gents" data-filter="gents" type="checkbox" class="filter"/> Gents</label>
+              <br/>
+              <label class="text-white"><input title="necklaces" data-filter="necklaces" type="checkbox" class="filter"/> Necklaces / Bracelet</label>
+              <br/>
+              <p id="ieva5" class="text-white mb-0 mt-3">Ring Type
+              </p>
+              <label class="text-white"><input title="boule" data-filter="boule" type="checkbox" class="filter"/> Boule</label>
+              <br/>
+              <label class="text-white"><input title="twin" data-filter="twin" type="checkbox" class="filter"/> Twin</label>
+              <br/>
+              <label class="text-white"><input title="three-stone" data-filter="three-stone" type="checkbox" class="filter"/> Three-stone</label>
+              <br/>
+              <label class="text-white"><input title="five-stone" data-filter="five-stone" type="checkbox" class="filter"/> Five-stone</label>
+              <br/>
+              <label class="text-white"><input title="signet" data-filter="signet" type="checkbox" class="filter"/> Signet</label>
+              <br/>
+              <label class="text-white"><input title="fashion" data-filter="fashion" type="checkbox" class="filter"/> Fashion</label>
+              <br/>
+              <label class="text-white"><input title="solitaire" data-filter="solitaire" type="checkbox" class="filter"/> Solitaire</label>
+              <br/>
+              <label class="text-white"><input title="halo" data-filter="halo" type="checkbox" class="filter"/> Halo</label>
+              <br/>
+              <label class="text-white"><input title="cluster" data-filter="cluster" type="checkbox" class="filter"/> Cluster</label>
+              <br/>
+              <p id="i4v4i" class="text-white mb-0 mt-3">Color
+              </p>
+              <label class="text-white"><input title="blue" data-filter="blue" type="checkbox" class="filter"/> Blue</label>
+              <br/>
+              <label class="text-white"><input title="brown" data-filter="brown" type="checkbox" class="filter"/> Brown</label>
+              <br/>
+              <label class="text-white"><input title="green" data-filter="green" type="checkbox" class="filter"/> Green</label>
+              <br/>
+              <label class="text-white"><input title="Aqua" data-filter="Aqua" type="checkbox" class="filter"/> Aqua</label>
+              <br/>
+              <label class="text-white"><input title="Orange" data-filter="Orange" type="checkbox" class="filter"/> Orange</label>
+              <br/>
+              <label class="text-white"><input title="pink" data-filter="pink" type="checkbox" class="filter"/> Pink</label>
+              <br/>
+            </div>
+          </div>
+        </div>
+        <div class="gjs-cell col-12 col-lg-10 order-2 order-lg-2 position-relative bs-column p-2">
+          <div id="irv6t" class="masonry-grid">
+            <div id="iyy6m" class="masonry-item engagement solitaire blue p-2">
+              <img src="https://p1media.prosperna.ph/media/682c27b4bf13aac97635eb2a/1750060560350-image%2032%20%284%29.webp" id="i2st2"/>
+            </div>
+            <div id="iojkx" class="masonry-item wedding halo pink p-2">
+              <img src="https://p1media.prosperna.ph/media/682c27b4bf13aac97635eb2a/1750128927369-image%2033.webp" id="iiu9r"/>
+            </div>
+            <div id="ize25" class="masonry-item unique boule green p-2">
+              <img id="icf4l" src="https://p1media.prosperna.ph/media/682c27b4bf13aac97635eb2a/1750128940541-image%2034%20%282%29.webp"/>
+            </div>
+            <div id="il40f" class="masonry-item earrings twin blue p-2">
+              <img src="https://p1media.prosperna.ph/media/682c27b4bf13aac97635eb2a/1750128954337-image%20%2836%29.webp" id="ibuka"/>
+            </div>
+            <div id="iyubr" class="masonry-item gents cluster pink p-2">
+              <img src="https://p1media.prosperna.ph/media/682c27b4bf13aac97635eb2a/1750128965459-image%20%2837%29.webp" id="i229q"/>
+            </div>
+            <div id="i5tbd" class="masonry-item necklaces halo green p-2">
+              <img src="https://p1media.prosperna.ph/media/682c27b4bf13aac97635eb2a/1750128984841-image%20%2838%29.webp" id="itt9h"/>
+            </div>
+            <div id="ireqs" class="masonry-item necklaces halo green p-2">
+              <img src="https://p1media.prosperna.ph/media/682c27b4bf13aac97635eb2a/1750129015658-image%20%2839%29.webp" id="iesrt"/>
+            </div>
+            <div id="iov1j" class="masonry-item necklaces halo green p-2">
+              <img src="https://p1media.prosperna.ph/media/682c27b4bf13aac97635eb2a/1750129031207-image%20%2840%29.webp" id="ixrcm"/>
+            </div>
+            <div id="ik9qp" class="masonry-item necklaces halo green p-2">
+              <img src="https://p1media.prosperna.ph/media/682c27b4bf13aac97635eb2a/1750129047041-image%20%2841%29.webp" id="izuhm"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+*{
+  box-sizing:border-box;
+}
+body{
+  margin:0;
+}
+.gjs-row{
+  min-height:undefinedpx;
+  margin:0 !important;
+  padding:10px;
+}
+.bs-row{
+  min-height:unset;
+}
+.bs-column{
+  min-height:unset;
+}
+.gjs-section:empty:before, .gjs-container:empty:before, .gjs-row:empty:before, .gjs-cell:empty:before{
+  background-color:#ddd;
+  color:#000;
+  font-size:20px;
+  font-weight:bold;
+  height:100%;
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  min-height:300px;
+  opacity:0.3;
+  border-radius:3px;
+  white-space:pre;
+  overflow:hidden;
+  text-align:center;
+  text-overflow:ellipsis;
+  content:"+ \A Drag a block here";
+}
+#i2x2{
+  padding-top:50px;
+  padding-bottom:50px;
+  background-image:url('https://p1media.prosperna.ph/media/682c27b4bf13aac97635eb2a/1750060126703-image%2030.webp');
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-attachment:scroll;
+  background-size:cover;
+}
+#container{
+  min-height:300px;
+}
+#i4bd{
+  font-size:56px;
+}
+#io8l{
+  min-height:300px;
+}
+#ip644{
+  padding-top:50px;
+  padding-bottom:50px;
+}
+blockquote{
+  position:relative;
+  padding-left:20px;
+  undefined:undefined;
+  font-style:italic;
+}
+blockquote::before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  width:5px;
+  undefined:undefined;
+  height:100%;
+  background-color:#777777;
+}
+#ihjdq{
+  min-height:300px;
+}
+#i4ojj{
+  padding-top:50px;
+  padding-bottom:50px;
+}
+#izfeu{
+  font-family:Open Sans;
+  font-size:18px;
+}
+#icf4l{
+  color:black;
+  width:100%;
+}
+#i2st2{
+  color:black;
+  width:100%;
+}
+#iiu9r{
+  color:black;
+  width:100%;
+}
+#itt9h{
+  color:black;
+  width:100%;
+}
+#i229q{
+  color:black;
+  width:100%;
+}
+#ibuka{
+  color:black;
+  width:100%;
+}
+#izuhm{
+  color:black;
+  width:100%;
+}
+#ixrcm{
+  color:black;
+  width:100%;
+}
+#iesrt{
+  color:black;
+  width:100%;
+}
+.masonry-grid{
+  column-count:1;
+  column-gap:1rem;
+}
+.masonry-item{
+  display:inline-block;
+  width:100%;
+  margin-bottom:1rem;
+  vertical-align:top;
+}
+@media (min-width: 576px){
+  .masonry-grid{
+    column-count:2;
+  }
+}
+@media (min-width: 992px){
+  .masonry-grid{
+    column-count:3;
+  }
+}
+</style>
