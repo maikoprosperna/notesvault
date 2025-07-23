@@ -1,0 +1,16 @@
+.selected-pages {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+#deleteTemplateModal,
+#unpublishTemplateModal {
+  .modal-content {
+    padding: 20px;
+  }
+
+  button {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}

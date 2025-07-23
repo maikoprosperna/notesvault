@@ -1,0 +1,45 @@
+.logo-preview-wrap {
+  width: 100%;
+
+  img {
+    overflow: hidden;
+    border-radius: 50%;
+    width: 171px;
+    height: 171px;
+    object-fit: cover;
+  }
+}
+
+.favicon-logo {
+  img {
+    overflow: hidden;
+    border-radius: 50%;
+    width: 121px;
+    height: 121px;
+    object-fit: cover;
+  }
+
+  @media (width <= 767px) {
+    img {
+      width: 70px;
+      height: 70px;
+    }
+  }
+}
+
+.cover-preview-wrap {
+  width: 100%;
+
+  img {
+    overflow: hidden;
+    border-radius: 50%;
+    width: 171px;
+    height: 171px;
+    object-fit: cover;
+  }
+}
+
+.default-preview {
+  height: 111px;
+  width: 170px;
+}
