@@ -1,0 +1,37 @@
+<!-- preload font -->
+<link rel="preload" href="https://p1-mediaserver.s3.ap-southeast-1.amazonaws.com/assets/fonts/stores/67091930209d99783db8f965/1741259099034-din-regularalternate.otf" as="font" type="font/otf" crossorigin="anonymous" />
+
+<!-- custom code for animation transitions  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>new WOW({offset:100,mobile:!0,live:!0,callback:function(o){},scrollContainer:null}).init()</script>
+
+<!-- custom code for homepage swiper -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>function initializeSwiper(){const e=document.querySelector(".custom-section-carousel .swiper");if(!e||e.classList.contains("swiper-initialized"))return;new Swiper(".custom-section-carousel .swiper",{loop:!0,slidesPerView:3,spaceBetween:0,autoplay:{delay:3e3,disableOnInteraction:!1},speed:600,slidesPerGroup:1,navigation:{nextEl:".custom-section-carousel .swiper-button-next",prevEl:".custom-section-carousel .swiper-button-prev"},pagination:{el:".custom-section-carousel .swiper-pagination",clickable:!0}});e.classList.add("swiper-initialized")}function observePageChanges(){let e=new MutationObserver(()=>{document.querySelector(".custom-section-carousel .swiper")&&initializeSwiper()});e.observe(document.body,{childList:!0,subtree:!0}),window.addEventListener("popstate",initializeSwiper),window.addEventListener("pushState",initializeSwiper),window.addEventListener("replaceState",initializeSwiper)}document.addEventListener("DOMContentLoaded",function(){initializeSwiper(),observePageChanges()});</script>
+
+<meta http-equiv="Cache-control" content="public">
+<meta name="google-site-verification" content="fc0gs8ZeoEWEta_Tk7lQ3opOFlJpT3F6v2QuPvoY-IQ" />
+<link rel="canonical" href="https://www.mono.ph/" />
+<meta name="robots" content="index, follow" />
+<meta name="keywords" content="Mono PH, Laudemio olive oil, Acetaia La Bonissima balsamic vinegar, Tirrena pasta, Mokaflor coffee, Italian culinary products" />
+
+
+<!-- custom css for login -->
+<style>
+@media (max-width: 400px) {
+  .customer-login {
+    padding-top: 50px;
+  }
+}
+</style>
+<style>.customer-login div .card div{background-color:#0e2338!important;border-radius:10px}.customer-login div .card div h3,.customer-login div .card div h4,.customer-login div .card div a,.customer-login div .card div p span{color:#bb9b63!important}.customer-login div .card div label,.customer-login div .card div p,.customer-login div .card div svg,.customer-login div .card div a.btn{color:#fff!important}.customer-login div .card div svg path{fill:#fff}.customer-login div .card div .merchant-logo{color:#fff0;width:150px;border-radius:0;border:none} </style>
+
+<!-- custom script for active link-->
+<script>function updateActiveNavLink(){const e=window.location.pathname;document.querySelectorAll(".nav-item-design").forEach(t=>{t.getAttribute("href")===e?t.classList.add("active"):t.classList.remove("active")})}const observer=new MutationObserver(()=>{updateActiveNavLink()});function startObserving(){observer.observe(document.body,{childList:!0,subtree:!0}),updateActiveNavLink()}document.body?startObserving():document.addEventListener("DOMContentLoaded",startObserving);</script>
+
+<!-- custom styling to menus-->
+<style>#primaryDesign.offcanvas.offcanvas-end.show{background-color:#0E2338!important;color:white!important}#primaryDesign .nav-item-design.active{border-bottom:2px solid #bd9a5f!important}#primaryDesign .nav-item-design{border-bottom:2px solid transparent!important}#primaryDesign .nav-item-design:hover{border-bottom:2px solid #bd9a5f!important}.headerPreview .hamburger-menu svg{background:#bb9b63!important;color:#fff}#mobileDrawer [data-testid="CloseIcon"]{fill:#fff}</style>
+<style>#primaryDesign #mobileDrawer button.accordion-button{background-color:transparent!important}#primaryDesign .dropdown-menu .nav-item-design.nav-link{border-bottom:2px solid transparent!important}#primaryDesign .dropdown-menu .nav-item-design.nav-link:hover{border-bottom:2px solid #bd9a5f!important}</style>
