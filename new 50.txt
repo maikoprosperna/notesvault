@@ -1,0 +1,13 @@
+<meta name="google-site-verification" content="wrNM9_JowKn1q2LhLz5qpZFwV7jXscOq4b8pD7ZPl1s" />
+
+<!-- custom script for active link-->
+<script>function updateActiveNavLink(){const e=window.location.pathname;document.querySelectorAll(".nav-item-design").forEach(t=>{t.getAttribute("href")===e?t.classList.add("active"):t.classList.remove("active")})}const observer=new MutationObserver(()=>{updateActiveNavLink()});function startObserving(){observer.observe(document.body,{childList:!0,subtree:!0}),updateActiveNavLink()}document.body?startObserving():document.addEventListener("DOMContentLoaded",startObserving);</script>
+
+<!--custom css for menua ctive link -->
+<style>#primaryDesign a.nav-item-design.active{border-bottom:2px solid #009c68!important;margin-bottom:1px !Important}#primaryDesign a.nav-item-design{color:#000;border-bottom:2px solid transparent!important}#primaryDesign a.nav-item-design:hover{border-bottom:2px solid #009c68!important;margin-bottom:1px !Important}.headerPreview .hamburger-menu svg{background:#009c68!important;color:#fff}</style>
+
+<!-- custom code for animation transitions -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>new WOW({offset:100,mobile:!0,live:!0,callback:function(o){},scrollContainer:null}).init()</script>

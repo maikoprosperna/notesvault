@@ -1,0 +1,66 @@
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NCR6S359');</script>
+<!-- End Google Tag Manager -->
+
+<meta name="google-site-verification" content="uSTKnAS_fvZKO_i_pdyBVzF7f1VbsUtJfZFym92jM0c" />
+
+<!-- custom code for animation transitions -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>new WOW({offset:100,mobile:!0,live:!0,callback:function(o){},scrollContainer:null}).init()</script>
+<link data-gjs-highlightable="true" id="irs9" data-gjs-type="default" draggable="true" rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/webfonts/fa-solid-900.woff2" type="font/woff2" crossorigin="anonymous"><link data-gjs-highlightable="true" id="i5mb" data-gjs-type="default" draggable="true" rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/webfonts/fa-brands-400.woff2" type="font/woff2" crossorigin="anonymous"><link data-gjs-highlightable="true" id="iltj" data-gjs-type="default" draggable="true" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin="anonymous"><link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin="anonymous"><link rel="preload" as="image" href="https://p1media.prosperna.ph/media/67a4499788e7388cb2028f90/1739147509210-20220429-151335.webp" type="image/webp"><link rel="preload" as="script" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"><link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet"><script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- custom code for sliders -->
+<script>document.addEventListener("DOMContentLoaded",function(){let e=document.querySelector('meta[name="viewport"]');e&&e.remove();let t=document.createElement("meta");t.name="viewport";t.content="width=device-width, initial-scale=1, maximum-scale=5";document.head.appendChild(t)});function initializeSwipers(){document.querySelectorAll(".loading-text, .loading-text-3").forEach((e)=>{e.style.display="none"});const initSwiper=(selector,config)=>{document.querySelectorAll(selector).forEach((el)=>{if(!el.classList.contains("swiper-initialized")){el.style.display="block";new Swiper(el,config)}})};initSwiper(".myCustomSwiper",{loop:!0,loopedSlides:8,autoplay:{delay:0,disableOnInteraction:!0},speed:2000,slidesPerView:4,spaceBetween:20,centeredSlides:!1,allowTouchMove:!0,breakpoints:{992:{slidesPerView:4,spaceBetween:50},768:{slidesPerView:3,spaceBetween:10},480:{slidesPerView:1,spaceBetween:0,centeredSlides:!1},0:{slidesPerView:1,spaceBetween:0,centeredSlides:!1},},});initSwiper(".myCustomSwiperTwo",{slidesPerView:5,spaceBetween:2,loop:!0,autoplay:{delay:3000,disableOnInteraction:!1},navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"},breakpoints:{992:{slidesPerView:4,spaceBetween:5},768:{slidesPerView:2,spaceBetween:10},480:{slidesPerView:1,spaceBetween:0,centeredSlides:!1},0:{slidesPerView:1,spaceBetween:0,centeredSlides:!1},},});initSwiper(".myCustomSwiperThree",{slidesPerView:5.1,spaceBetween:20,loop:!0,centeredSlides:!0,autoplay:{delay:2500,disableOnInteraction:!0},breakpoints:{1400:{slidesPerView:5.1,spaceBetween:30},1200:{slidesPerView:5.1,spaceBetween:30},992:{slidesPerView:3,spaceBetween:15},480:{slidesPerView:3,spaceBetween:5},0:{slidesPerView:1,spaceBetween:5},},});initSwiper(".myCustomSwiperFour",{slidesPerView:5,spaceBetween:2,loop:!0,autoplay:{delay:3000,disableOnInteraction:!1},navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"},breakpoints:{992:{slidesPerView:4,spaceBetween:5},768:{slidesPerView:2,spaceBetween:10},480:{slidesPerView:1,spaceBetween:0,centeredSlides:!1},0:{slidesPerView:1,spaceBetween:0,centeredSlides:!1},},})}
+window.addEventListener("load",function(){setTimeout(initializeSwipers,1000)});setInterval(initializeSwipers,2000);</script>
+<script src='https://cdn.jotfor.ms/s/umd/latest/for-embedded-agent.js'></script>
+<script>window.addEventListener("DOMContentLoaded",function(){window.AgentInitializer.init({agentRenderURL:"https://agent.jotform.com/0195823c9b207608881f2feea74464ccd19d",rootId:"JotformAgent-0195823c9b207608881f2feea74464ccd19d",formID:"0195823c9b207608881f2feea74464ccd19d",queryParams:["skipWelcome=1","maximizable=1"],domain:"https://www.jotform.com",isDraggable:!1,background:"linear-gradient(180deg, #a2caf0 0%, #3f71d7 100%)",buttonBackgroundColor:"#3f71d7",buttonIconColor:"#FFFFFF",variant:!1,customizations:{"greeting":"Yes","greetingMessage":"Hi! How can I assist you?","openByDefault":"No","pulse":"Yes","position":"right","autoOpenChatIn":"0"},isVoice:!1})});</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PDMS9PZF');</script>
+<!-- End Google Tag Manager -->
+
+<script>
+window.dataLayer.push({
+    event: "Purchase",
+
+    // Attribution matching
+    conversionId: "abc123",
+    advancedMatchingParams: [
+        { name: "email", value: "alice@site.com" },
+        { name: "phoneNumber", value: "+15554441234" },
+    ],
+
+    // Event metadata
+    itemCount: 2,
+    currency: "USD",
+    transactionValue: 100,
+
+    productRows: [{
+        id: "abc123",
+        category: "Vegetable",
+        name: "Potato"
+    }]
+});
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2VTKTBFZ3F"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2VTKTBFZ3F');
+</script>
